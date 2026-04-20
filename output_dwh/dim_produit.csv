@@ -1,0 +1,16 @@
+id_produit_sk,id_produit_nk,nom_produit,categorie,sous_categorie,marque,fournisseur,prix_standard,origine_pays,date_debut,date_fin,est_actif
+1,P001,iPhone 16 Pro 256Go,Electronique,Smartphones,Apple,Apple MENA,12999.0,USA,2020-01-01,9999-12-31,True
+2,P002,Samsung Galaxy S24,Electronique,Smartphones,Samsung,Samsung MA,9499.0,Corée,2020-01-01,9999-12-31,True
+3,P003,Laptop Dell XPS 15,Electronique,Ordinateurs,Dell,Dell MENA,14500.0,USA,2020-01-01,9999-12-31,True
+4,P004,Ecouteurs Sony WH-1000,Electronique,Audio,Sony,Sony MA,2799.0,Japon,2020-01-01,9999-12-31,True
+5,P005,Montre Casio G-Shock,Mode,Montres,Casio,Casio MA,1299.0,Japon,2020-01-01,9999-12-31,True
+6,P006,Huile d'olive Maasra,Alimentation,Huiles,Maasra,Coop Tanger,89.0,Maroc,2020-01-01,9999-12-31,True
+7,P007,Couscous Ain Ifrane 1kg,Alimentation,Cereales,Ain Ifrane,Ain Ifrane SA,35.0,Maroc,2020-01-01,9999-12-31,True
+8,P008,T-shirt Zara Homme,Mode,Vetements,Zara,Inditex MA,299.0,Espagne,2020-01-01,9999-12-31,True
+9,P009,Chaussures Nike Air Max,Mode,Chaussures,Nike,Nike MENA,1499.0,USA,2020-01-01,9999-12-31,True
+10,P010,Tablet iPad Air,Electronique,Tablettes,Apple,Apple MENA,7999.0,USA,2020-01-01,9999-12-31,True
+11,P011,Cafetiere Nespresso,Electronique,Electromenager,Nespresso,Nestle MA,8749.0,Suisse,2020-01-01,2026-04-20,False
+12,P012,Huile d'argan bio,Alimentation,Huiles,Zine,Coop Agadir,250.0,Maroc,2020-01-01,9999-12-31,True
+13,P013,Robe Kaftan Fassi,Mode,Vetements,Artisanat,Artisans Fes,899.0,Maroc,2020-01-01,9999-12-31,True
+14,P014,Dates Medjool 500g,Alimentation,Fruits Secs,Medfouna,Coop Draa,199.0,Maroc,2020-01-01,9999-12-31,True
+15,P015,Xiaomi Redmi Note 13,Electronique,Smartphones,Xiaomi,Xiaomi MA,3499.0,Chine,2020-01-01,9999-12-31,True

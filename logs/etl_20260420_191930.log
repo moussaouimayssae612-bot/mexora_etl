@@ -1,0 +1,200 @@
+2026-04-20 19:19:30 | INFO     | ============================================================
+2026-04-20 19:19:30 | INFO     |   DÉMARRAGE PIPELINE ETL MEXORA ANALYTICS
+2026-04-20 19:19:30 | INFO     |   Mode : PostgreSQL
+2026-04-20 19:19:30 | INFO     | ============================================================
+2026-04-20 19:19:30 | INFO     | --- PHASE EXTRACT ---
+2026-04-20 19:19:30 | INFO     | [EXTRACT] commandes : 515 lignes lues depuis commandes_mexora.csv
+2026-04-20 19:19:30 | INFO     | [EXTRACT] produits : 15 produits lus depuis produits_mexora.json
+2026-04-20 19:19:30 | INFO     | [EXTRACT] clients : 1,030 lignes lues depuis clients_mexora.csv
+2026-04-20 19:19:30 | INFO     | [EXTRACT] régions : 10 villes dans le référentiel
+2026-04-20 19:19:30 | INFO     | --- PHASE TRANSFORM ---
+2026-04-20 19:19:30 | INFO     | [TRANSFORM commandes] Début : 515 lignes
+2026-04-20 19:19:31 | INFO     | [R1] Doublons supprimés : 15 lignes
+2026-04-20 19:19:31 | INFO     | [R2] Dates invalides supprimées : 0
+2026-04-20 19:19:31 | INFO     | [R3] Villes non reconnues → 'Non renseignée' : 153
+2026-04-20 19:19:31 | WARNING  | [R4] Statuts non reconnus → 'inconnu' : 0
+2026-04-20 19:19:31 | INFO     | [R5] Quantités <= 0 supprimées : 12
+2026-04-20 19:19:31 | INFO     | [R6] Prix nuls (commandes test) supprimés : 22
+2026-04-20 19:19:31 | INFO     | [R7] Livreurs manquants remplacés par '-1' : 41
+2026-04-20 19:19:31 | INFO     | [TRANSFORM commandes] Fin : 515 → 466 lignes (supprimées : 49)
+2026-04-20 19:19:31 | INFO     | [TRANSFORM clients] Début : 1,030 lignes
+2026-04-20 19:19:31 | INFO     | [R1] Doublons email supprimés : 30
+2026-04-20 19:19:31 | INFO     | [R2] Sexe non reconnu → 'inconnu' : 0
+2026-04-20 19:19:31 | INFO     | [R3] Dates de naissance invalides (âge hors 16-100 ans) : 27
+2026-04-20 19:19:31 | INFO     | [R5] Emails invalides → None : 51
+2026-04-20 19:19:31 | INFO     | [TRANSFORM clients] Fin : 1,030 → 1,000 lignes (supprimées : 30)
+2026-04-20 19:19:31 | INFO     | [TRANSFORM produits] Début : 15 lignes
+2026-04-20 19:19:31 | INFO     | [R1] Catégories normalisées : 15
+2026-04-20 19:19:31 | INFO     | [R2] Prix manquants remplacés par médiane catégorie : 1
+2026-04-20 19:19:31 | INFO     | [R3] Produits inactifs conservés (SCD Type 2) : 1 (ils seront marqués est_actif=False dans dim_produit)
+2026-04-20 19:19:31 | INFO     | [TRANSFORM produits] Fin : 15 lignes
+2026-04-20 19:19:31 | WARNING  | [SEGMENT] Aucune commande récente → tous les clients classés Bronze
+2026-04-20 19:19:31 | INFO     |   Construction des dimensions...
+2026-04-20 19:19:31 | INFO     | [dim_temps] 2,557 jours générés (2020-01-01 → 2026-12-31)
+2026-04-20 19:19:31 | INFO     | [dim_produit] 15 produits dont 1 inactifs (SCD Type 2)
+2026-04-20 19:19:31 | INFO     | [dim_client] 1,000 clients construits
+2026-04-20 19:19:31 | INFO     | [dim_region] 10 régions construites
+2026-04-20 19:19:31 | INFO     | [dim_livreur] 21 livreurs construits
+2026-04-20 19:19:31 | INFO     |   Construction de la table de faits...
+2026-04-20 19:19:31 | INFO     | [fait_ventes] 457 lignes construites
+2026-04-20 19:19:31 | INFO     | --- PHASE LOAD ---
+2026-04-20 19:19:34 | INFO     | [LOAD] Connexion PostgreSQL établie avec succès
+2026-04-20 19:19:34 | ERROR    | [LOAD] Erreur lors du chargement de dim_temps : (psycopg2.errors.DependentObjectsStillExist) ERREUR:  n'a pas pu supprimer table dwh_mexora.dim_temps car d'autres objets en dépendent
+DETAIL:  contrainte fait_ventes_id_date_fkey sur table dwh_mexora.fait_ventes dépend de table dwh_mexora.dim_temps
+vue matérialisée reporting_mexora.mv_ca_mensuel dépend de table dwh_mexora.dim_temps
+vue matérialisée reporting_mexora.mv_top_produits dépend de table dwh_mexora.dim_temps
+vue matérialisée reporting_mexora.mv_performance_livreurs dépend de table dwh_mexora.dim_temps
+HINT:  Utilisez DROP ... CASCADE pour supprimer aussi les objets dépendants.
+
+[SQL: 
+DROP TABLE dwh_mexora.dim_temps]
+(Background on this error at: https://sqlalche.me/e/20/2j85)
+2026-04-20 19:19:34 | ERROR    | ERREUR PIPELINE : (psycopg2.errors.DependentObjectsStillExist) ERREUR:  n'a pas pu supprimer table dwh_mexora.dim_temps car d'autres objets en dépendent
+DETAIL:  contrainte fait_ventes_id_date_fkey sur table dwh_mexora.fait_ventes dépend de table dwh_mexora.dim_temps
+vue matérialisée reporting_mexora.mv_ca_mensuel dépend de table dwh_mexora.dim_temps
+vue matérialisée reporting_mexora.mv_top_produits dépend de table dwh_mexora.dim_temps
+vue matérialisée reporting_mexora.mv_performance_livreurs dépend de table dwh_mexora.dim_temps
+HINT:  Utilisez DROP ... CASCADE pour supprimer aussi les objets dépendants.
+
+[SQL: 
+DROP TABLE dwh_mexora.dim_temps]
+(Background on this error at: https://sqlalche.me/e/20/2j85)
+Traceback (most recent call last):
+  File "D:\tools.may\mexora_etl_complet\venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+    ~~~~~~~~~~~~~~~~~~~~~~~^
+        cursor, str_statement, effective_parameters, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "D:\tools.may\mexora_etl_complet\venv\Lib\site-packages\sqlalchemy\engine\default.py", line 952, in do_execute
+    cursor.execute(statement, parameters)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.DependentObjectsStillExist: ERREUR:  n'a pas pu supprimer table dwh_mexora.dim_temps car d'autres objets en dépendent
+DETAIL:  contrainte fait_ventes_id_date_fkey sur table dwh_mexora.fait_ventes dépend de table dwh_mexora.dim_temps
+vue matérialisée reporting_mexora.mv_ca_mensuel dépend de table dwh_mexora.dim_temps
+vue matérialisée reporting_mexora.mv_top_produits dépend de table dwh_mexora.dim_temps
+vue matérialisée reporting_mexora.mv_performance_livreurs dépend de table dwh_mexora.dim_temps
+HINT:  Utilisez DROP ... CASCADE pour supprimer aussi les objets dépendants.
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\tools.may\mexora_etl_complet\main.py", line 122, in run_pipeline
+    charger_dimension(df, nom, engine)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "D:\tools.may\mexora_etl_complet\load\loader.py", line 50, in charger_dimension
+    df.to_sql(
+    ~~~~~~~~~^
+        name      = table_name,
+        ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+        chunksize = 1000,
+        ^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "D:\tools.may\mexora_etl_complet\venv\Lib\site-packages\pandas\core\generic.py", line 3052, in to_sql
+    return sql.to_sql(
+           ~~~~~~~~~~^
+        self,
+        ^^^^^
+    ...<8 lines>...
+        method=method,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "D:\tools.may\mexora_etl_complet\venv\Lib\site-packages\pandas\io\sql.py", line 841, in to_sql
+    return pandas_sql.to_sql(
+           ~~~~~~~~~~~~~~~~~^
+        frame,
+        ^^^^^^
+    ...<9 lines>...
+        **engine_kwargs,
+        ^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "D:\tools.may\mexora_etl_complet\venv\Lib\site-packages\pandas\io\sql.py", line 2027, in to_sql
+    table = self.prep_table(
+        frame=frame,
+    ...<5 lines>...
+        dtype=dtype,
+    )
+  File "D:\tools.may\mexora_etl_complet\venv\Lib\site-packages\pandas\io\sql.py", line 1932, in prep_table
+    table.create()
+    ~~~~~~~~~~~~^^
+  File "D:\tools.may\mexora_etl_complet\venv\Lib\site-packages\pandas\io\sql.py", line 990, in create
+    self.pd_sql.drop_table(self.name, self.schema)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\tools.may\mexora_etl_complet\venv\Lib\site-packages\pandas\io\sql.py", line 2082, in drop_table
+    self.get_table(table_name, schema).drop(bind=self.con)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "D:\tools.may\mexora_etl_complet\venv\Lib\site-packages\sqlalchemy\sql\schema.py", line 1300, in drop
+    bind._run_ddl_visitor(ddl.SchemaDropper, self, checkfirst=checkfirst)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\tools.may\mexora_etl_complet\venv\Lib\site-packages\sqlalchemy\engine\base.py", line 2467, in _run_ddl_visitor
+    ).traverse_single(element)
+      ~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\tools.may\mexora_etl_complet\venv\Lib\site-packages\sqlalchemy\sql\visitors.py", line 661, in traverse_single
+    return meth(obj, **kw)
+  File "D:\tools.may\mexora_etl_complet\venv\Lib\site-packages\sqlalchemy\sql\ddl.py", line 1209, in visit_table
+    DropTable(table)._invoke_with(self.connection)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "D:\tools.may\mexora_etl_complet\venv\Lib\site-packages\sqlalchemy\sql\ddl.py", line 321, in _invoke_with
+    return bind.execute(self)
+           ~~~~~~~~~~~~^^^^^^
+  File "D:\tools.may\mexora_etl_complet\venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1419, in execute
+    return meth(
+        self,
+        distilled_parameters,
+        execution_options or NO_OPTIONS,
+    )
+  File "D:\tools.may\mexora_etl_complet\venv\Lib\site-packages\sqlalchemy\sql\ddl.py", line 187, in _execute_on_connection
+    return connection._execute_ddl(
+           ~~~~~~~~~~~~~~~~~~~~~~~^
+        self, distilled_params, execution_options
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "D:\tools.may\mexora_etl_complet\venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1530, in _execute_ddl
+    ret = self._execute_context(
+        dialect,
+    ...<4 lines>...
+        compiled,
+    )
+  File "D:\tools.may\mexora_etl_complet\venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1846, in _execute_context
+    return self._exec_single_context(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^
+        dialect, context, statement, parameters
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "D:\tools.may\mexora_etl_complet\venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1986, in _exec_single_context
+    self._handle_dbapi_exception(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        e, str_statement, effective_parameters, cursor, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "D:\tools.may\mexora_etl_complet\venv\Lib\site-packages\sqlalchemy\engine\base.py", line 2363, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "D:\tools.may\mexora_etl_complet\venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+    ~~~~~~~~~~~~~~~~~~~~~~~^
+        cursor, str_statement, effective_parameters, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "D:\tools.may\mexora_etl_complet\venv\Lib\site-packages\sqlalchemy\engine\default.py", line 952, in do_execute
+    cursor.execute(statement, parameters)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+sqlalchemy.exc.InternalError: (psycopg2.errors.DependentObjectsStillExist) ERREUR:  n'a pas pu supprimer table dwh_mexora.dim_temps car d'autres objets en dépendent
+DETAIL:  contrainte fait_ventes_id_date_fkey sur table dwh_mexora.fait_ventes dépend de table dwh_mexora.dim_temps
+vue matérialisée reporting_mexora.mv_ca_mensuel dépend de table dwh_mexora.dim_temps
+vue matérialisée reporting_mexora.mv_top_produits dépend de table dwh_mexora.dim_temps
+vue matérialisée reporting_mexora.mv_performance_livreurs dépend de table dwh_mexora.dim_temps
+HINT:  Utilisez DROP ... CASCADE pour supprimer aussi les objets dépendants.
+
+[SQL: 
+DROP TABLE dwh_mexora.dim_temps]
+(Background on this error at: https://sqlalche.me/e/20/2j85)

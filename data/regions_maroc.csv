@@ -1,0 +1,11 @@
+code_ville,nom_ville_standard,province,region_admin,zone_geo,population,code_postal
+TNG,Tanger,Fahs-Anjra,Tanger-Tétouan-Al Hoceïma,Nord,1065601,90000
+TET,Tétouan,Tétouan,Tanger-Tétouan-Al Hoceïma,Nord,400000,93000
+CAS,Casablanca,Casablanca,Casablanca-Settat,Centre,3752000,20000
+RBA,Rabat,Rabat,Rabat-Salé-Kénitra,Centre,577827,10000
+FES,Fès,Fès,Fès-Meknès,Centre,1150000,30000
+MRK,Marrakech,Marrakech,Marrakech-Safi,Sud,928850,40000
+AGA,Agadir,Agadir-Ida-Ou-Tanane,Souss-Massa,Sud,421844,80000
+OUD,Oujda,Oujda-Angad,Oriental,Est,494252,60000
+MEK,Meknès,Meknès,Fès-Meknès,Centre,632079,50000
+LAA,Laâyoune,Laâyoune,Laâyoune-Sakia El Hamra,Sud,217732,70000

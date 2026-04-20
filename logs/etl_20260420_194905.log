@@ -1,0 +1,64 @@
+2026-04-20 19:49:05 | INFO     | ============================================================
+2026-04-20 19:49:05 | INFO     |   DÉMARRAGE PIPELINE ETL MEXORA ANALYTICS
+2026-04-20 19:49:05 | INFO     |   Mode : PostgreSQL
+2026-04-20 19:49:05 | INFO     | ============================================================
+2026-04-20 19:49:05 | INFO     | --- PHASE EXTRACT ---
+2026-04-20 19:49:05 | INFO     | [EXTRACT] commandes : 515 lignes lues depuis commandes_mexora.csv
+2026-04-20 19:49:05 | INFO     | [EXTRACT] produits : 15 produits lus depuis produits_mexora.json
+2026-04-20 19:49:05 | INFO     | [EXTRACT] clients : 1,030 lignes lues depuis clients_mexora.csv
+2026-04-20 19:49:05 | INFO     | [EXTRACT] régions : 10 villes dans le référentiel
+2026-04-20 19:49:05 | INFO     | --- PHASE TRANSFORM ---
+2026-04-20 19:49:05 | INFO     | [TRANSFORM commandes] Début : 515 lignes
+2026-04-20 19:49:05 | INFO     | [R1] Doublons supprimés : 15 lignes
+2026-04-20 19:49:05 | INFO     | [R2] Dates invalides supprimées : 0
+2026-04-20 19:49:05 | INFO     | [R3] Villes non reconnues → 'Non renseignée' : 153
+2026-04-20 19:49:05 | WARNING  | [R4] Statuts non reconnus → 'inconnu' : 0
+2026-04-20 19:49:05 | INFO     | [R5] Quantités <= 0 supprimées : 12
+2026-04-20 19:49:05 | INFO     | [R6] Prix nuls (commandes test) supprimés : 22
+2026-04-20 19:49:05 | INFO     | [R7] Livreurs manquants remplacés par '-1' : 41
+2026-04-20 19:49:05 | INFO     | [TRANSFORM commandes] Fin : 515 → 466 lignes (supprimées : 49)
+2026-04-20 19:49:05 | INFO     | [TRANSFORM clients] Début : 1,030 lignes
+2026-04-20 19:49:05 | INFO     | [R1] Doublons email supprimés : 30
+2026-04-20 19:49:05 | INFO     | [R2] Sexe non reconnu → 'inconnu' : 0
+2026-04-20 19:49:05 | INFO     | [R3] Dates de naissance invalides (âge hors 16-100 ans) : 27
+2026-04-20 19:49:05 | INFO     | [R5] Emails invalides → None : 51
+2026-04-20 19:49:05 | INFO     | [TRANSFORM clients] Fin : 1,030 → 1,000 lignes (supprimées : 30)
+2026-04-20 19:49:05 | INFO     | [TRANSFORM produits] Début : 15 lignes
+2026-04-20 19:49:05 | INFO     | [R1] Catégories normalisées : 15
+2026-04-20 19:49:05 | INFO     | [R2] Prix manquants remplacés par médiane catégorie : 1
+2026-04-20 19:49:05 | INFO     | [R3] Produits inactifs conservés (SCD Type 2) : 1 (ils seront marqués est_actif=False dans dim_produit)
+2026-04-20 19:49:05 | INFO     | [TRANSFORM produits] Fin : 15 lignes
+2026-04-20 19:49:05 | WARNING  | [SEGMENT] Aucune commande récente → tous les clients classés Bronze
+2026-04-20 19:49:05 | INFO     |   Construction des dimensions...
+2026-04-20 19:49:06 | INFO     | [dim_temps] 2,557 jours générés (2020-01-01 → 2026-12-31)
+2026-04-20 19:49:06 | INFO     | [dim_produit] 15 produits dont 1 inactifs (SCD Type 2)
+2026-04-20 19:49:06 | INFO     | [dim_client] 1,000 clients construits
+2026-04-20 19:49:06 | INFO     | [dim_region] 10 régions construites
+2026-04-20 19:49:06 | INFO     | [dim_livreur] 21 livreurs construits
+2026-04-20 19:49:06 | INFO     |   Construction de la table de faits...
+2026-04-20 19:49:06 | INFO     | [fait_ventes] 457 lignes construites
+2026-04-20 19:49:06 | INFO     | --- PHASE LOAD ---
+2026-04-20 19:49:07 | INFO     | [LOAD] Connexion PostgreSQL établie avec succès
+2026-04-20 19:49:07 | DEBUG    | [LOAD] TRUNCATE CASCADE sur dwh_mexora.dim_temps OK
+2026-04-20 19:49:09 | INFO     | [LOAD] dwh_mexora.dim_temps → 2,557 lignes chargées
+2026-04-20 19:49:09 | DEBUG    | [LOAD] TRUNCATE CASCADE sur dwh_mexora.dim_produit OK
+2026-04-20 19:49:09 | INFO     | [LOAD] dwh_mexora.dim_produit → 15 lignes chargées
+2026-04-20 19:49:10 | DEBUG    | [LOAD] TRUNCATE CASCADE sur dwh_mexora.dim_client OK
+2026-04-20 19:49:10 | INFO     | [LOAD] dwh_mexora.dim_client → 1,000 lignes chargées
+2026-04-20 19:49:10 | DEBUG    | [LOAD] TRUNCATE CASCADE sur dwh_mexora.dim_region OK
+2026-04-20 19:49:10 | INFO     | [LOAD] dwh_mexora.dim_region → 10 lignes chargées
+2026-04-20 19:49:10 | DEBUG    | [LOAD] TRUNCATE CASCADE sur dwh_mexora.dim_livreur OK
+2026-04-20 19:49:10 | INFO     | [LOAD] dwh_mexora.dim_livreur → 21 lignes chargées
+2026-04-20 19:49:11 | DEBUG    | [LOAD] TRUNCATE CASCADE sur dwh_mexora.fait_ventes OK
+2026-04-20 19:49:11 | DEBUG    | [LOAD] Chunk 1 → 457 lignes insérées
+2026-04-20 19:49:11 | INFO     | [LOAD] dwh_mexora.fait_ventes → 457 lignes chargées
+2026-04-20 19:49:11 | INFO     | ============================================================
+2026-04-20 19:49:11 | INFO     |   PIPELINE TERMINÉ EN 6 seconde(s)
+2026-04-20 19:49:11 | INFO     |   Lignes dans chaque table :
+2026-04-20 19:49:11 | INFO     |     dim_temps            :    2,557 lignes
+2026-04-20 19:49:11 | INFO     |     dim_produit          :       15 lignes
+2026-04-20 19:49:11 | INFO     |     dim_client           :    1,000 lignes
+2026-04-20 19:49:11 | INFO     |     dim_region           :       10 lignes
+2026-04-20 19:49:11 | INFO     |     dim_livreur          :       21 lignes
+2026-04-20 19:49:11 | INFO     |     fait_ventes          :      457 lignes
+2026-04-20 19:49:11 | INFO     | ============================================================

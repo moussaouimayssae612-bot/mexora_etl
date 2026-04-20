@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Mexora Analytics — Pipeline ETL & Data Warehouse
 
 Projet ETL complet pour la marketplace e-commerce **Mexora** basée à Tanger.
@@ -199,3 +200,6 @@ PIPELINE TERMINÉ
 | psycopg2     | Driver PostgreSQL pour Python     |
 | PostgreSQL   | Data Warehouse                    |
 | pgAdmin      | Interface graphique PostgreSQL    |
+=======
+# mexora_etl
+>>>>>>> 3bdb0256e10d95040859c7694252e7c94bc8531f

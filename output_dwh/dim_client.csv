@@ -1,0 +1,1001 @@
+id_client_sk,id_client_nk,nom_complet,tranche_age,sexe,ville,segment_client,canal_acquisition,date_debut,date_fin,est_actif
+1,C0404,Youssef Lahlou,18-24,m,Fès,Bronze,organic,2020-01-01,9999-12-31,True
+2,C0650,Ahmed Cherkaoui,35-44,m,Oujda,Bronze,social_media,2020-01-01,9999-12-31,True
+3,C0193,Meryem Filali,25-34,f,Fès,Bronze,paid_search,2020-01-01,9999-12-31,True
+4,C0180,Khadija Filali,18-24,f,Agadir,Bronze,referral,2020-01-01,9999-12-31,True
+5,C0304,Imane Cherkaoui,25-34,f,Tanger,Bronze,email,2020-01-01,9999-12-31,True
+6,C0223,Imane Benomar,25-34,f,Non renseignée,Bronze,organic,2020-01-01,9999-12-31,True
+7,C0881,Tariq Tazi,18-24,m,Casablanca,Bronze,referral,2020-01-01,9999-12-31,True
+8,C0584,Houda Tazi,35-44,f,Rabat,Bronze,referral,2020-01-01,9999-12-31,True
+9,C0947,Ahmed Benomar,35-44,m,Rabat,Bronze,email,2020-01-01,9999-12-31,True
+10,C0197,Rachid Guerraoui,35-44,m,Oujda,Bronze,paid_search,2020-01-01,9999-12-31,True
+11,C0708,Mohamed Benali,55-64,m,Rabat,Bronze,email,2020-01-01,9999-12-31,True
+12,C0703,Sara Guerraoui,45-54,f,Agadir,Bronze,paid_search,2020-01-01,9999-12-31,True
+13,C0339,Rachid Guerraoui,45-54,m,Non renseignée,Bronze,referral,2020-01-01,9999-12-31,True
+14,C0707,Meryem Filali,35-44,f,Casablanca,Bronze,organic,2020-01-01,9999-12-31,True
+15,C0063,Rachid Cherkaoui,25-34,m,Fès,Bronze,referral,2020-01-01,9999-12-31,True
+16,C0811,Mohamed Berrada,55-64,m,Non renseignée,Bronze,organic,2020-01-01,9999-12-31,True
+17,C0626,Amine Benali,55-64,m,Agadir,Bronze,organic,2020-01-01,9999-12-31,True
+18,C0743,Laila Idrissi,18-24,f,Casablanca,Bronze,referral,2020-01-01,9999-12-31,True
+19,C0206,Sara Lahlou,35-44,f,Casablanca,Bronze,paid_search,2020-01-01,9999-12-31,True
+20,C0552,Youssef Benomar,25-34,m,Fès,Bronze,social_media,2020-01-01,9999-12-31,True
+21,C0573,Nadia Guerraoui,18-24,f,Non renseignée,Bronze,email,2020-01-01,9999-12-31,True
+22,C0513,Amine Benali,35-44,m,Tanger,Bronze,organic,2020-01-01,9999-12-31,True
+23,C0043,Rachid Tazi,55-64,m,Tanger,Bronze,paid_search,2020-01-01,9999-12-31,True
+24,C0698,Sanaa Tazi,45-54,f,Non renseignée,Bronze,email,2020-01-01,9999-12-31,True
+25,C0574,Mohamed Berrada,18-24,m,Agadir,Bronze,referral,2020-01-01,9999-12-31,True
+26,C0135,Youssef Lahlou,45-54,m,Oujda,Bronze,referral,2020-01-01,9999-12-31,True
+27,C0633,Tariq Tazi,35-44,m,Non renseignée,Bronze,social_media,2020-01-01,9999-12-31,True
+28,C0726,Sara Tazi,45-54,f,Casablanca,Bronze,referral,2020-01-01,9999-12-31,True
+29,C0395,Khalid Guerraoui,18-24,m,Rabat,Bronze,referral,2020-01-01,9999-12-31,True
+30,C0410,Nadia Guerraoui,45-54,f,Fès,Bronze,email,2020-01-01,9999-12-31,True
+31,C0212,Youssef Cherkaoui,35-44,m,Non renseignée,Bronze,social_media,2020-01-01,9999-12-31,True
+32,C0982,Mohamed Benomar,45-54,m,Marrakech,Bronze,referral,2020-01-01,9999-12-31,True
+33,C0406,Nadia Guerraoui,55-64,f,Non renseignée,Bronze,paid_search,2020-01-01,9999-12-31,True
+34,C0070,Meryem Berrada,25-34,f,Casablanca,Bronze,social_media,2020-01-01,9999-12-31,True
+35,C0198,Omar Guerraoui,25-34,m,Oujda,Bronze,social_media,2020-01-01,9999-12-31,True
+36,C0176,Khadija Berrada,18-24,f,Marrakech,Bronze,social_media,2020-01-01,9999-12-31,True
+37,C0243,Houda Tazi,45-54,f,Fès,Bronze,organic,2020-01-01,9999-12-31,True
+38,C0664,Khalid Benali,25-34,m,Rabat,Bronze,paid_search,2020-01-01,9999-12-31,True
+39,C0401,Youssef Cherkaoui,18-24,m,Oujda,Bronze,social_media,2020-01-01,9999-12-31,True
+40,C0411,Hassan Guerraoui,35-44,m,Non renseignée,Bronze,referral,2020-01-01,9999-12-31,True
+41,C0148,Houda Berrada,35-44,f,Casablanca,Bronze,referral,2020-01-01,9999-12-31,True
+42,C0372,Karim Tazi,35-44,m,Non renseignée,Bronze,social_media,2020-01-01,9999-12-31,True
+43,C0393,Imane Guerraoui,25-34,f,Non renseignée,Bronze,referral,2020-01-01,9999-12-31,True
+44,C0965,Khalid Alami,18-24,m,Agadir,Bronze,social_media,2020-01-01,9999-12-31,True
+45,C0783,Sanaa Lahlou,45-54,f,Marrakech,Bronze,social_media,2020-01-01,9999-12-31,True
+46,C0118,Zineb Benomar,45-54,f,Marrakech,Bronze,social_media,2020-01-01,9999-12-31,True
+47,C0121,Ahmed Tazi,35-44,m,Rabat,Bronze,email,2020-01-01,9999-12-31,True
+48,C0359,Meryem Berrada,,f,Casablanca,Bronze,referral,2020-01-01,9999-12-31,True
+49,C0490,Khalid Benali,55-64,m,Tanger,Bronze,social_media,2020-01-01,9999-12-31,True
+50,C0462,Meryem Tazi,45-54,f,Non renseignée,Bronze,referral,2020-01-01,9999-12-31,True
+51,C0995,Nadia Guerraoui,45-54,f,Non renseignée,Bronze,organic,2020-01-01,9999-12-31,True
+52,C0259,Sara Filali,35-44,f,Marrakech,Bronze,email,2020-01-01,9999-12-31,True
+53,C0338,Hassan Lahlou,25-34,m,Non renseignée,Bronze,referral,2020-01-01,9999-12-31,True
+54,C0303,Meryem Alami,,f,Tanger,Bronze,social_media,2020-01-01,9999-12-31,True
+55,C0394,Fatima Cherkaoui,35-44,f,Rabat,Bronze,paid_search,2020-01-01,9999-12-31,True
+56,C0308,Sanaa Filali,18-24,f,Rabat,Bronze,referral,2020-01-01,9999-12-31,True
+57,C0235,Nadia Benomar,18-24,f,Fès,Bronze,email,2020-01-01,9999-12-31,True
+58,C0478,Ahmed Benomar,45-54,m,Oujda,Bronze,social_media,2020-01-01,9999-12-31,True
+59,C0504,Hassan Lahlou,18-24,m,Agadir,Bronze,paid_search,2020-01-01,9999-12-31,True
+60,C0293,Imane Guerraoui,25-34,f,Tanger,Bronze,social_media,2020-01-01,9999-12-31,True
+61,C0256,Omar Alami,45-54,m,Oujda,Bronze,paid_search,2020-01-01,9999-12-31,True
+62,C0101,Ahmed Benomar,35-44,m,Casablanca,Bronze,social_media,2020-01-01,9999-12-31,True
+63,C0680,Ahmed Idrissi,55-64,m,Fès,Bronze,social_media,2020-01-01,9999-12-31,True
+64,C0257,Rachid Filali,25-34,m,Fès,Bronze,organic,2020-01-01,9999-12-31,True
+65,C0577,Ahmed Berrada,18-24,m,Non renseignée,Bronze,referral,2020-01-01,9999-12-31,True
+66,C0503,Zineb Idrissi,18-24,f,Agadir,Bronze,email,2020-01-01,9999-12-31,True
+67,C0315,Youssef Lahlou,45-54,m,Tanger,Bronze,social_media,2020-01-01,9999-12-31,True
+68,C0450,Khadija Lahlou,18-24,f,Oujda,Bronze,referral,2020-01-01,9999-12-31,True
+69,C0922,Youssef Berrada,25-34,m,Non renseignée,Bronze,email,2020-01-01,9999-12-31,True
+70,C0984,Imane Benali,55-64,f,Casablanca,Bronze,referral,2020-01-01,9999-12-31,True
+71,C0910,Zineb Tazi,35-44,f,Agadir,Bronze,paid_search,2020-01-01,9999-12-31,True
+72,C0946,Rachid Benomar,35-44,m,Casablanca,Bronze,social_media,2020-01-01,9999-12-31,True
+73,C0469,Khadija Guerraoui,25-34,f,Agadir,Bronze,referral,2020-01-01,9999-12-31,True
+74,C0863,Mohamed Berrada,45-54,m,Tanger,Bronze,email,2020-01-01,9999-12-31,True
+75,C0843,Khalid Benomar,45-54,m,Fès,Bronze,email,2020-01-01,9999-12-31,True
+76,C0019,Fatima Lahlou,25-34,f,Rabat,Bronze,referral,2020-01-01,9999-12-31,True
+77,C0558,Omar Guerraoui,35-44,m,Tanger,Bronze,social_media,2020-01-01,9999-12-31,True
+78,C0536,Imane Tazi,18-24,f,Marrakech,Bronze,email,2020-01-01,9999-12-31,True
+79,C0367,Khadija Benali,25-34,f,Non renseignée,Bronze,organic,2020-01-01,9999-12-31,True
+80,C0802,Meryem Lahlou,45-54,f,Agadir,Bronze,paid_search,2020-01-01,9999-12-31,True
+81,C0214,Mohamed Tazi,18-24,m,Rabat,Bronze,email,2020-01-01,9999-12-31,True
+82,C0230,Zineb Benali,45-54,f,Casablanca,Bronze,organic,2020-01-01,9999-12-31,True
+83,C0440,Khadija Lahlou,18-24,f,Rabat,Bronze,referral,2020-01-01,9999-12-31,True
+84,C0711,Amine Idrissi,45-54,m,Casablanca,Bronze,social_media,2020-01-01,9999-12-31,True
+85,C0432,Khalid Filali,35-44,m,Marrakech,Bronze,social_media,2020-01-01,9999-12-31,True
+86,C0123,Karim Tazi,18-24,m,Oujda,Bronze,paid_search,2020-01-01,9999-12-31,True
+87,C0183,Zineb Cherkaoui,25-34,f,Marrakech,Bronze,social_media,2020-01-01,9999-12-31,True
+88,C0373,Amine Lahlou,35-44,m,Non renseignée,Bronze,referral,2020-01-01,9999-12-31,True
+89,C0489,Sara Cherkaoui,45-54,f,Fès,Bronze,organic,2020-01-01,9999-12-31,True
+90,C0897,Sanaa Benali,35-44,f,Casablanca,Bronze,social_media,2020-01-01,9999-12-31,True
+91,C0113,Zineb Cherkaoui,25-34,f,Oujda,Bronze,social_media,2020-01-01,9999-12-31,True
+92,C0347,Houda Filali,55-64,f,Marrakech,Bronze,paid_search,2020-01-01,9999-12-31,True
+93,C0519,Karim Berrada,45-54,m,Non renseignée,Bronze,referral,2020-01-01,9999-12-31,True
+94,C0445,Sara Cherkaoui,18-24,f,Agadir,Bronze,social_media,2020-01-01,9999-12-31,True
+95,C0086,Mohamed Benomar,25-34,m,Oujda,Bronze,email,2020-01-01,9999-12-31,True
+96,C0958,Khalid Alami,35-44,m,Oujda,Bronze,paid_search,2020-01-01,9999-12-31,True
+97,C0041,Hassan Filali,45-54,m,Non renseignée,Bronze,referral,2020-01-01,9999-12-31,True
+98,C0396,Meryem Alami,45-54,f,Casablanca,Bronze,referral,2020-01-01,9999-12-31,True
+99,C0612,Meryem Berrada,25-34,f,Oujda,Bronze,paid_search,2020-01-01,9999-12-31,True
+100,C0652,Nadia Filali,18-24,f,Tanger,Bronze,email,2020-01-01,9999-12-31,True
+101,C0400,Meryem Filali,35-44,f,Non renseignée,Bronze,organic,2020-01-01,9999-12-31,True
+102,C0454,Amine Benomar,45-54,m,Rabat,Bronze,social_media,2020-01-01,9999-12-31,True
+103,C0284,Amine Guerraoui,35-44,m,Oujda,Bronze,referral,2020-01-01,9999-12-31,True
+104,C0061,Hassan Filali,25-34,m,Non renseignée,Bronze,social_media,2020-01-01,9999-12-31,True
+105,C0423,Tariq Berrada,35-44,m,Non renseignée,Bronze,organic,2020-01-01,9999-12-31,True
+106,C0209,Sanaa Benali,35-44,f,Rabat,Bronze,organic,2020-01-01,9999-12-31,True
+107,C0276,Omar Filali,25-34,m,Agadir,Bronze,email,2020-01-01,9999-12-31,True
+108,C0181,Amine Filali,25-34,m,Non renseignée,Bronze,email,2020-01-01,9999-12-31,True
+109,C0575,Mohamed Tazi,55-64,m,Rabat,Bronze,social_media,2020-01-01,9999-12-31,True
+110,C0973,Sara Benomar,35-44,f,Fès,Bronze,referral,2020-01-01,9999-12-31,True
+111,C0945,Khadija Berrada,25-34,f,Agadir,Bronze,social_media,2020-01-01,9999-12-31,True
+112,C0060,Nadia Filali,25-34,f,Non renseignée,Bronze,social_media,2020-01-01,9999-12-31,True
+113,C0878,Tariq Idrissi,45-54,m,Marrakech,Bronze,social_media,2020-01-01,9999-12-31,True
+114,C0985,Meryem Lahlou,45-54,f,Oujda,Bronze,email,2020-01-01,9999-12-31,True
+115,C0357,Nadia Benali,35-44,f,Tanger,Bronze,paid_search,2020-01-01,9999-12-31,True
+116,C0229,Laila Cherkaoui,45-54,f,Oujda,Bronze,organic,2020-01-01,9999-12-31,True
+117,C0527,Khalid Tazi,25-34,m,Non renseignée,Bronze,organic,2020-01-01,9999-12-31,True
+118,C0438,Karim Berrada,45-54,m,Tanger,Bronze,organic,2020-01-01,9999-12-31,True
+119,C0015,Laila Alami,25-34,f,Tanger,Bronze,referral,2020-01-01,9999-12-31,True
+120,C0437,Fatima Guerraoui,25-34,f,Marrakech,Bronze,email,2020-01-01,9999-12-31,True
+121,C0189,Tariq Lahlou,25-34,m,Non renseignée,Bronze,paid_search,2020-01-01,9999-12-31,True
+122,C0112,Laila Idrissi,45-54,f,Fès,Bronze,social_media,2020-01-01,9999-12-31,True
+123,C0365,Omar Alami,55-64,m,Tanger,Bronze,email,2020-01-01,9999-12-31,True
+124,C0004,Tariq Lahlou,55-64,m,Marrakech,Bronze,social_media,2020-01-01,9999-12-31,True
+125,C0691,Youssef Filali,45-54,m,Non renseignée,Bronze,email,2020-01-01,9999-12-31,True
+126,C0412,Sanaa Benali,55-64,f,Casablanca,Bronze,social_media,2020-01-01,9999-12-31,True
+127,C0792,Fatima Lahlou,45-54,f,Casablanca,Bronze,organic,2020-01-01,9999-12-31,True
+128,C0173,Rachid Guerraoui,55-64,m,Non renseignée,Bronze,email,2020-01-01,9999-12-31,True
+129,C0136,Meryem Lahlou,55-64,f,Oujda,Bronze,paid_search,2020-01-01,9999-12-31,True
+130,C0689,Khalid Tazi,25-34,m,Non renseignée,Bronze,paid_search,2020-01-01,9999-12-31,True
+131,C0780,Mohamed Lahlou,25-34,m,Fès,Bronze,email,2020-01-01,9999-12-31,True
+132,C0322,Zineb Filali,35-44,f,Casablanca,Bronze,paid_search,2020-01-01,9999-12-31,True
+133,C0723,Houda Tazi,35-44,f,Agadir,Bronze,organic,2020-01-01,9999-12-31,True
+134,C0645,Omar Idrissi,25-34,m,Rabat,Bronze,email,2020-01-01,9999-12-31,True
+135,C0765,Laila Filali,35-44,f,Tanger,Bronze,social_media,2020-01-01,9999-12-31,True
+136,C0602,Rachid Filali,45-54,m,Rabat,Bronze,paid_search,2020-01-01,9999-12-31,True
+137,C0895,Amine Guerraoui,35-44,m,Agadir,Bronze,organic,2020-01-01,9999-12-31,True
+138,C0924,Khalid Alami,45-54,m,Tanger,Bronze,paid_search,2020-01-01,9999-12-31,True
+139,C1811,Khalid Idrissi,25-34,m,Rabat,Bronze,email,2020-01-01,9999-12-31,True
+140,C0938,Fatima Guerraoui,18-24,f,Casablanca,Bronze,paid_search,2020-01-01,9999-12-31,True
+141,C0815,Rachid Alami,45-54,m,Oujda,Bronze,referral,2020-01-01,9999-12-31,True
+142,C0199,Karim Cherkaoui,25-34,m,Non renseignée,Bronze,email,2020-01-01,9999-12-31,True
+143,C0044,Khalid Lahlou,25-34,m,Non renseignée,Bronze,social_media,2020-01-01,9999-12-31,True
+144,C0656,Laila Berrada,35-44,f,Non renseignée,Bronze,social_media,2020-01-01,9999-12-31,True
+145,C0991,Khadija Berrada,18-24,f,Non renseignée,Bronze,email,2020-01-01,9999-12-31,True
+146,C0323,Sanaa Filali,45-54,f,Tanger,Bronze,referral,2020-01-01,9999-12-31,True
+147,C0266,Meryem Berrada,35-44,f,Marrakech,Bronze,organic,2020-01-01,9999-12-31,True
+148,C0875,Khalid Cherkaoui,25-34,m,Tanger,Bronze,referral,2020-01-01,9999-12-31,True
+149,C0561,Sanaa Tazi,25-34,f,Tanger,Bronze,email,2020-01-01,9999-12-31,True
+150,C0714,Omar Benomar,45-54,m,Rabat,Bronze,referral,2020-01-01,9999-12-31,True
+151,C0747,Youssef Idrissi,25-34,m,Tanger,Bronze,referral,2020-01-01,9999-12-31,True
+152,C0798,Khadija Idrissi,18-24,f,Non renseignée,Bronze,email,2020-01-01,9999-12-31,True
+153,C0769,Tariq Guerraoui,35-44,m,Non renseignée,Bronze,social_media,2020-01-01,9999-12-31,True
+154,C0377,Hassan Benomar,55-64,m,Non renseignée,Bronze,referral,2020-01-01,9999-12-31,True
+155,C0603,Karim Tazi,25-34,m,Casablanca,Bronze,paid_search,2020-01-01,9999-12-31,True
+156,C0951,Hassan Alami,55-64,m,Non renseignée,Bronze,organic,2020-01-01,9999-12-31,True
+157,C0834,Fatima Tazi,25-34,f,Non renseignée,Bronze,email,2020-01-01,9999-12-31,True
+158,C0351,Karim Benomar,25-34,m,Tanger,Bronze,social_media,2020-01-01,9999-12-31,True
+159,C0814,Nadia Guerraoui,55-64,f,Non renseignée,Bronze,paid_search,2020-01-01,9999-12-31,True
+160,C0840,Khalid Alami,45-54,m,Marrakech,Bronze,organic,2020-01-01,9999-12-31,True
+161,C0387,Amine Tazi,45-54,m,Non renseignée,Bronze,email,2020-01-01,9999-12-31,True
+162,C0803,Sanaa Berrada,18-24,f,Agadir,Bronze,referral,2020-01-01,9999-12-31,True
+163,C0278,Fatima Tazi,35-44,f,Tanger,Bronze,paid_search,2020-01-01,9999-12-31,True
+164,C0467,Hassan Lahlou,35-44,m,Casablanca,Bronze,paid_search,2020-01-01,9999-12-31,True
+165,C0488,Sanaa Idrissi,55-64,f,Oujda,Bronze,email,2020-01-01,9999-12-31,True
+166,C0764,Amine Benomar,45-54,m,Tanger,Bronze,social_media,2020-01-01,9999-12-31,True
+167,C1550,Amine Idrissi,45-54,m,Non renseignée,Bronze,social_media,2020-01-01,9999-12-31,True
+168,C0717,Karim Tazi,45-54,m,Agadir,Bronze,referral,2020-01-01,9999-12-31,True
+169,C0797,Rachid Guerraoui,45-54,m,Agadir,Bronze,social_media,2020-01-01,9999-12-31,True
+170,C0914,Ahmed Filali,18-24,m,Rabat,Bronze,referral,2020-01-01,9999-12-31,True
+171,C0736,Sara Benomar,45-54,f,Marrakech,Bronze,social_media,2020-01-01,9999-12-31,True
+172,C0576,Zineb Lahlou,,f,Non renseignée,Bronze,social_media,2020-01-01,9999-12-31,True
+173,C0496,Houda Filali,25-34,f,Non renseignée,Bronze,referral,2020-01-01,9999-12-31,True
+174,C0068,Mohamed Guerraoui,35-44,m,Non renseignée,Bronze,paid_search,2020-01-01,9999-12-31,True
+175,C0083,Sanaa Lahlou,45-54,f,Non renseignée,Bronze,email,2020-01-01,9999-12-31,True
+176,C0977,Meryem Cherkaoui,45-54,f,Fès,Bronze,social_media,2020-01-01,9999-12-31,True
+177,C0388,Laila Lahlou,35-44,f,Casablanca,Bronze,social_media,2020-01-01,9999-12-31,True
+178,C0560,Laila Guerraoui,35-44,f,Marrakech,Bronze,referral,2020-01-01,9999-12-31,True
+179,C0251,Khalid Filali,45-54,m,Non renseignée,Bronze,social_media,2020-01-01,9999-12-31,True
+180,C0228,Khalid Alami,35-44,m,Tanger,Bronze,paid_search,2020-01-01,9999-12-31,True
+181,C0766,Hassan Idrissi,45-54,m,Casablanca,Bronze,referral,2020-01-01,9999-12-31,True
+182,C0531,Laila Tazi,25-34,f,Oujda,Bronze,paid_search,2020-01-01,9999-12-31,True
+183,C0713,Ahmed Benomar,35-44,m,Casablanca,Bronze,paid_search,2020-01-01,9999-12-31,True
+184,C0571,Hassan Benomar,18-24,m,Oujda,Bronze,organic,2020-01-01,9999-12-31,True
+185,C0220,Ahmed Alami,,m,Tanger,Bronze,organic,2020-01-01,9999-12-31,True
+186,C0267,Imane Benomar,25-34,f,Non renseignée,Bronze,paid_search,2020-01-01,9999-12-31,True
+187,C0939,Khadija Lahlou,45-54,f,Marrakech,Bronze,social_media,2020-01-01,9999-12-31,True
+188,C0614,Omar Idrissi,25-34,m,Non renseignée,Bronze,email,2020-01-01,9999-12-31,True
+189,C0791,Khadija Berrada,18-24,f,Fès,Bronze,social_media,2020-01-01,9999-12-31,True
+190,C0002,Sanaa Guerraoui,25-34,f,Rabat,Bronze,social_media,2020-01-01,9999-12-31,True
+191,C0475,Youssef Cherkaoui,55-64,m,Rabat,Bronze,email,2020-01-01,9999-12-31,True
+192,C0903,Sara Berrada,25-34,f,Agadir,Bronze,email,2020-01-01,9999-12-31,True
+193,C0851,Karim Berrada,55-64,m,Non renseignée,Bronze,social_media,2020-01-01,9999-12-31,True
+194,C0413,Amine Tazi,35-44,m,Oujda,Bronze,organic,2020-01-01,9999-12-31,True
+195,C0072,Tariq Berrada,35-44,m,Oujda,Bronze,referral,2020-01-01,9999-12-31,True
+196,C0916,Mohamed Filali,55-64,m,Agadir,Bronze,social_media,2020-01-01,9999-12-31,True
+197,C0419,Ahmed Guerraoui,35-44,m,Non renseignée,Bronze,referral,2020-01-01,9999-12-31,True
+198,C0886,Youssef Berrada,35-44,m,Agadir,Bronze,organic,2020-01-01,9999-12-31,True
+199,C0911,Houda Lahlou,35-44,f,Casablanca,Bronze,referral,2020-01-01,9999-12-31,True
+200,C0859,Khalid Guerraoui,45-54,m,Casablanca,Bronze,organic,2020-01-01,9999-12-31,True
+201,C0139,Mohamed Tazi,25-34,m,Rabat,Bronze,email,2020-01-01,9999-12-31,True
+202,C0706,Youssef Filali,45-54,m,Rabat,Bronze,referral,2020-01-01,9999-12-31,True
+203,C0890,Youssef Filali,35-44,m,Marrakech,Bronze,email,2020-01-01,9999-12-31,True
+204,C0287,Karim Tazi,18-24,m,Non renseignée,Bronze,paid_search,2020-01-01,9999-12-31,True
+205,C0737,Amine Idrissi,35-44,m,Non renseignée,Bronze,social_media,2020-01-01,9999-12-31,True
+206,C0866,Imane Berrada,45-54,f,Non renseignée,Bronze,organic,2020-01-01,9999-12-31,True
+207,C0017,Rachid Alami,35-44,m,Fès,Bronze,organic,2020-01-01,9999-12-31,True
+208,C0572,Imane Idrissi,35-44,f,Oujda,Bronze,email,2020-01-01,9999-12-31,True
+209,C0832,Omar Guerraoui,25-34,m,Tanger,Bronze,paid_search,2020-01-01,9999-12-31,True
+210,C0605,Amine Guerraoui,25-34,m,Oujda,Bronze,referral,2020-01-01,9999-12-31,True
+211,C0644,Tariq Filali,45-54,m,Marrakech,Bronze,organic,2020-01-01,9999-12-31,True
+212,C0876,Khadija Alami,55-64,f,Agadir,Bronze,paid_search,2020-01-01,9999-12-31,True
+213,C0981,Meryem Cherkaoui,55-64,f,Non renseignée,Bronze,email,2020-01-01,9999-12-31,True
+214,C0761,Meryem Benali,25-34,f,Casablanca,Bronze,social_media,2020-01-01,9999-12-31,True
+215,C0260,Meryem Berrada,35-44,f,Tanger,Bronze,organic,2020-01-01,9999-12-31,True
+216,C0344,Nadia Benali,35-44,f,Non renseignée,Bronze,social_media,2020-01-01,9999-12-31,True
+217,C0944,Karim Benali,25-34,m,Casablanca,Bronze,email,2020-01-01,9999-12-31,True
+218,C0217,Omar Benali,25-34,m,Tanger,Bronze,organic,2020-01-01,9999-12-31,True
+219,C0433,Amine Cherkaoui,45-54,m,Rabat,Bronze,paid_search,2020-01-01,9999-12-31,True
+220,C0473,Hassan Benali,35-44,m,Rabat,Bronze,paid_search,2020-01-01,9999-12-31,True
+221,C0501,Sanaa Benali,45-54,f,Non renseignée,Bronze,social_media,2020-01-01,9999-12-31,True
+222,C0996,Amine Berrada,25-34,m,Non renseignée,Bronze,social_media,2020-01-01,9999-12-31,True
+223,C0730,Khalid Filali,45-54,m,Agadir,Bronze,social_media,2020-01-01,9999-12-31,True
+224,C0831,Nadia Tazi,25-34,f,Oujda,Bronze,organic,2020-01-01,9999-12-31,True
+225,C0844,Zineb Idrissi,18-24,f,Agadir,Bronze,paid_search,2020-01-01,9999-12-31,True
+226,C0417,Khalid Benomar,25-34,m,Non renseignée,Bronze,social_media,2020-01-01,9999-12-31,True
+227,C0620,Khalid Cherkaoui,45-54,m,Non renseignée,Bronze,organic,2020-01-01,9999-12-31,True
+228,C0485,Mohamed Tazi,35-44,m,Casablanca,Bronze,email,2020-01-01,9999-12-31,True
+229,C0340,Sara Lahlou,45-54,f,Oujda,Bronze,referral,2020-01-01,9999-12-31,True
+230,C0389,Laila Cherkaoui,18-24,f,Fès,Bronze,email,2020-01-01,9999-12-31,True
+231,C0694,Mohamed Benali,35-44,m,Non renseignée,Bronze,referral,2020-01-01,9999-12-31,True
+232,C0758,Nadia Cherkaoui,25-34,f,Rabat,Bronze,paid_search,2020-01-01,9999-12-31,True
+233,C0481,Khadija Idrissi,35-44,f,Non renseignée,Bronze,social_media,2020-01-01,9999-12-31,True
+234,C0956,Karim Lahlou,25-34,m,Non renseignée,Bronze,social_media,2020-01-01,9999-12-31,True
+235,C0150,Sanaa Filali,25-34,f,Rabat,Bronze,social_media,2020-01-01,9999-12-31,True
+236,C0955,Fatima Benali,35-44,f,Non renseignée,Bronze,email,2020-01-01,9999-12-31,True
+237,C0354,Laila Alami,35-44,f,Oujda,Bronze,organic,2020-01-01,9999-12-31,True
+238,C0102,Ahmed Lahlou,25-34,m,Oujda,Bronze,email,2020-01-01,9999-12-31,True
+239,C0545,Imane Idrissi,55-64,f,Casablanca,Bronze,paid_search,2020-01-01,9999-12-31,True
+240,C0487,Rachid Tazi,25-34,m,Fès,Bronze,email,2020-01-01,9999-12-31,True
+241,C0325,Imane Idrissi,25-34,f,Non renseignée,Bronze,organic,2020-01-01,9999-12-31,True
+242,C0781,Houda Cherkaoui,35-44,f,Non renseignée,Bronze,email,2020-01-01,9999-12-31,True
+243,C0697,Khadija Guerraoui,35-44,f,Rabat,Bronze,email,2020-01-01,9999-12-31,True
+244,C0051,Khalid Cherkaoui,45-54,m,Non renseignée,Bronze,referral,2020-01-01,9999-12-31,True
+245,C0169,Omar Lahlou,,m,Non renseignée,Bronze,paid_search,2020-01-01,9999-12-31,True
+246,C0923,Karim Berrada,18-24,m,Tanger,Bronze,organic,2020-01-01,9999-12-31,True
+247,C0590,Mohamed Berrada,18-24,m,Non renseignée,Bronze,social_media,2020-01-01,9999-12-31,True
+248,C0099,Youssef Guerraoui,25-34,m,Rabat,Bronze,email,2020-01-01,9999-12-31,True
+249,C0358,Amine Filali,55-64,m,Casablanca,Bronze,organic,2020-01-01,9999-12-31,True
+250,C0523,Omar Berrada,55-64,m,Fès,Bronze,paid_search,2020-01-01,9999-12-31,True
+251,C0034,Zineb Cherkaoui,18-24,f,Fès,Bronze,organic,2020-01-01,9999-12-31,True
+252,C0692,Tariq Berrada,35-44,m,Non renseignée,Bronze,organic,2020-01-01,9999-12-31,True
+253,C0786,Ahmed Cherkaoui,45-54,m,Non renseignée,Bronze,paid_search,2020-01-01,9999-12-31,True
+254,C0222,Rachid Idrissi,25-34,m,Casablanca,Bronze,email,2020-01-01,9999-12-31,True
+255,C0885,Fatima Cherkaoui,45-54,f,Rabat,Bronze,social_media,2020-01-01,9999-12-31,True
+256,C0126,Sanaa Cherkaoui,18-24,f,Fès,Bronze,paid_search,2020-01-01,9999-12-31,True
+257,C0405,Ahmed Lahlou,25-34,m,Fès,Bronze,social_media,2020-01-01,9999-12-31,True
+258,C0801,Khalid Filali,18-24,m,Oujda,Bronze,referral,2020-01-01,9999-12-31,True
+259,C0020,Tariq Lahlou,18-24,m,Non renseignée,Bronze,social_media,2020-01-01,9999-12-31,True
+260,C0616,Ahmed Filali,18-24,m,Casablanca,Bronze,social_media,2020-01-01,9999-12-31,True
+261,C0669,Khadija Lahlou,55-64,f,Tanger,Bronze,paid_search,2020-01-01,9999-12-31,True
+262,C0525,Houda Berrada,45-54,f,Oujda,Bronze,paid_search,2020-01-01,9999-12-31,True
+263,C0366,Laila Guerraoui,18-24,f,Non renseignée,Bronze,referral,2020-01-01,9999-12-31,True
+264,C0402,Omar Idrissi,55-64,m,Marrakech,Bronze,email,2020-01-01,9999-12-31,True
+265,C0928,Ahmed Berrada,35-44,m,Casablanca,Bronze,paid_search,2020-01-01,9999-12-31,True
+266,C0023,Sanaa Alami,45-54,f,Non renseignée,Bronze,paid_search,2020-01-01,9999-12-31,True
+267,C0917,Khalid Filali,45-54,m,Non renseignée,Bronze,social_media,2020-01-01,9999-12-31,True
+268,C0021,Omar Cherkaoui,,m,Casablanca,Bronze,social_media,2020-01-01,9999-12-31,True
+269,C0094,Zineb Lahlou,45-54,f,Oujda,Bronze,organic,2020-01-01,9999-12-31,True
+270,C0754,Rachid Alami,55-64,m,Rabat,Bronze,social_media,2020-01-01,9999-12-31,True
+271,C0821,Hassan Filali,55-64,m,Agadir,Bronze,organic,2020-01-01,9999-12-31,True
+272,C0001,Fatima Berrada,45-54,f,Non renseignée,Bronze,email,2020-01-01,9999-12-31,True
+273,C0154,Youssef Filali,18-24,m,Oujda,Bronze,email,2020-01-01,9999-12-31,True
+274,C0629,Hassan Idrissi,45-54,m,Non renseignée,Bronze,social_media,2020-01-01,9999-12-31,True
+275,C0601,Rachid Filali,45-54,m,Tanger,Bronze,paid_search,2020-01-01,9999-12-31,True
+276,C0716,Sanaa Guerraoui,45-54,f,Non renseignée,Bronze,paid_search,2020-01-01,9999-12-31,True
+277,C0773,Omar Lahlou,18-24,m,Tanger,Bronze,organic,2020-01-01,9999-12-31,True
+278,C0842,Rachid Berrada,18-24,m,Tanger,Bronze,social_media,2020-01-01,9999-12-31,True
+279,C0458,Laila Tazi,45-54,f,Non renseignée,Bronze,referral,2020-01-01,9999-12-31,True
+280,C0111,Sanaa Cherkaoui,45-54,f,Non renseignée,Bronze,social_media,2020-01-01,9999-12-31,True
+281,C0391,Omar Benomar,45-54,m,Tanger,Bronze,paid_search,2020-01-01,9999-12-31,True
+282,C0028,Khadija Benali,45-54,f,Marrakech,Bronze,paid_search,2020-01-01,9999-12-31,True
+283,C0553,Youssef Guerraoui,55-64,m,Fès,Bronze,social_media,2020-01-01,9999-12-31,True
+284,C0919,Khalid Guerraoui,25-34,m,Casablanca,Bronze,social_media,2020-01-01,9999-12-31,True
+285,C0906,Karim Lahlou,35-44,m,Agadir,Bronze,referral,2020-01-01,9999-12-31,True
+286,C0675,Rachid Alami,45-54,m,Marrakech,Bronze,organic,2020-01-01,9999-12-31,True
+287,C0960,Rachid Guerraoui,25-34,m,Rabat,Bronze,email,2020-01-01,9999-12-31,True
+288,C0822,Khadija Lahlou,55-64,f,Marrakech,Bronze,paid_search,2020-01-01,9999-12-31,True
+289,C0823,Tariq Berrada,55-64,m,Oujda,Bronze,social_media,2020-01-01,9999-12-31,True
+290,C0998,Omar Alami,55-64,m,Agadir,Bronze,referral,2020-01-01,9999-12-31,True
+291,C0557,Khadija Tazi,25-34,f,Rabat,Bronze,referral,2020-01-01,9999-12-31,True
+292,C0038,Nadia Alami,35-44,f,Casablanca,Bronze,paid_search,2020-01-01,9999-12-31,True
+293,C0799,Sara Alami,45-54,f,Oujda,Bronze,organic,2020-01-01,9999-12-31,True
+294,C0471,Rachid Benomar,25-34,m,Fès,Bronze,social_media,2020-01-01,9999-12-31,True
+295,C0883,Houda Cherkaoui,18-24,f,Marrakech,Bronze,organic,2020-01-01,9999-12-31,True
+296,C0888,Laila Guerraoui,25-34,f,Fès,Bronze,social_media,2020-01-01,9999-12-31,True
+297,C0457,Hassan Benomar,55-64,m,Tanger,Bronze,email,2020-01-01,9999-12-31,True
+298,C0341,Hassan Idrissi,45-54,m,Fès,Bronze,referral,2020-01-01,9999-12-31,True
+299,C0515,Imane Benomar,35-44,f,Non renseignée,Bronze,paid_search,2020-01-01,9999-12-31,True
+300,C0824,Fatima Guerraoui,18-24,f,Non renseignée,Bronze,social_media,2020-01-01,9999-12-31,True
+301,C0409,Imane Filali,35-44,f,Tanger,Bronze,referral,2020-01-01,9999-12-31,True
+302,C0597,Zineb Benomar,35-44,f,Non renseignée,Bronze,email,2020-01-01,9999-12-31,True
+303,C0969,Imane Lahlou,35-44,f,Casablanca,Bronze,email,2020-01-01,9999-12-31,True
+304,C0167,Mohamed Berrada,45-54,m,Non renseignée,Bronze,social_media,2020-01-01,9999-12-31,True
+305,C0370,Houda Tazi,35-44,f,Non renseignée,Bronze,email,2020-01-01,9999-12-31,True
+306,C0336,Zineb Tazi,18-24,f,Fès,Bronze,paid_search,2020-01-01,9999-12-31,True
+307,C0045,Mohamed Lahlou,35-44,m,Casablanca,Bronze,social_media,2020-01-01,9999-12-31,True
+308,C0932,Omar Guerraoui,45-54,m,Oujda,Bronze,social_media,2020-01-01,9999-12-31,True
+309,C0174,Karim Guerraoui,35-44,m,Agadir,Bronze,social_media,2020-01-01,9999-12-31,True
+310,C0732,Tariq Tazi,25-34,m,Tanger,Bronze,organic,2020-01-01,9999-12-31,True
+311,C0005,Hassan Tazi,35-44,m,Casablanca,Bronze,referral,2020-01-01,9999-12-31,True
+312,C0715,Khalid Benomar,25-34,m,Rabat,Bronze,referral,2020-01-01,9999-12-31,True
+313,C0578,Khadija Benali,45-54,f,Non renseignée,Bronze,paid_search,2020-01-01,9999-12-31,True
+314,C0203,Khadija Idrissi,35-44,f,Rabat,Bronze,referral,2020-01-01,9999-12-31,True
+315,C0670,Amine Alami,25-34,m,Non renseignée,Bronze,organic,2020-01-01,9999-12-31,True
+316,C0027,Meryem Filali,55-64,f,Non renseignée,Bronze,paid_search,2020-01-01,9999-12-31,True
+317,C0188,Rachid Guerraoui,35-44,m,Casablanca,Bronze,social_media,2020-01-01,9999-12-31,True
+318,C0521,Zineb Filali,45-54,f,Casablanca,Bronze,paid_search,2020-01-01,9999-12-31,True
+319,C0986,Laila Idrissi,45-54,f,Marrakech,Bronze,organic,2020-01-01,9999-12-31,True
+320,C0971,Fatima Lahlou,18-24,f,Non renseignée,Bronze,social_media,2020-01-01,9999-12-31,True
+321,C0076,Amine Idrissi,45-54,m,Non renseignée,Bronze,social_media,2020-01-01,9999-12-31,True
+322,C1172,Mohamed Lahlou,45-54,m,Rabat,Bronze,email,2020-01-01,9999-12-31,True
+323,C0562,Ahmed Guerraoui,35-44,m,Tanger,Bronze,social_media,2020-01-01,9999-12-31,True
+324,C0029,Amine Cherkaoui,25-34,m,Tanger,Bronze,email,2020-01-01,9999-12-31,True
+325,C0152,Houda Berrada,35-44,f,Marrakech,Bronze,social_media,2020-01-01,9999-12-31,True
+326,C0500,Tariq Alami,25-34,m,Marrakech,Bronze,social_media,2020-01-01,9999-12-31,True
+327,C0751,Youssef Lahlou,45-54,m,Casablanca,Bronze,organic,2020-01-01,9999-12-31,True
+328,C0124,Laila Cherkaoui,,f,Non renseignée,Bronze,referral,2020-01-01,9999-12-31,True
+329,C0275,Zineb Alami,18-24,f,Casablanca,Bronze,paid_search,2020-01-01,9999-12-31,True
+330,C0009,Fatima Guerraoui,35-44,f,Oujda,Bronze,paid_search,2020-01-01,9999-12-31,True
+331,C0530,Ahmed Benali,25-34,m,Agadir,Bronze,social_media,2020-01-01,9999-12-31,True
+332,C0776,Ahmed Filali,25-34,m,Oujda,Bronze,paid_search,2020-01-01,9999-12-31,True
+333,C0566,Omar Benomar,55-64,m,Non renseignée,Bronze,referral,2020-01-01,9999-12-31,True
+334,C0441,Nadia Tazi,55-64,f,Non renseignée,Bronze,referral,2020-01-01,9999-12-31,True
+335,C0949,Zineb Tazi,45-54,f,Fès,Bronze,social_media,2020-01-01,9999-12-31,True
+336,C0245,Zineb Filali,35-44,f,Non renseignée,Bronze,social_media,2020-01-01,9999-12-31,True
+337,C0084,Youssef Benali,35-44,m,Agadir,Bronze,paid_search,2020-01-01,9999-12-31,True
+338,C0688,Mohamed Idrissi,35-44,m,Fès,Bronze,referral,2020-01-01,9999-12-31,True
+339,C0647,Omar Cherkaoui,55-64,m,Casablanca,Bronze,email,2020-01-01,9999-12-31,True
+340,C0443,Ahmed Cherkaoui,55-64,m,Tanger,Bronze,social_media,2020-01-01,9999-12-31,True
+341,C0511,Sara Filali,35-44,f,Casablanca,Bronze,paid_search,2020-01-01,9999-12-31,True
+342,C0606,Sanaa Benomar,45-54,f,Oujda,Bronze,referral,2020-01-01,9999-12-31,True
+343,C0538,Omar Lahlou,45-54,m,Oujda,Bronze,email,2020-01-01,9999-12-31,True
+344,C0248,Rachid Filali,35-44,m,Marrakech,Bronze,organic,2020-01-01,9999-12-31,True
+345,C0218,Fatima Benomar,25-34,f,Rabat,Bronze,organic,2020-01-01,9999-12-31,True
+346,C0929,Karim Filali,18-24,m,Oujda,Bronze,social_media,2020-01-01,9999-12-31,True
+347,C0673,Nadia Filali,45-54,f,Rabat,Bronze,paid_search,2020-01-01,9999-12-31,True
+348,C0674,Imane Idrissi,35-44,f,Tanger,Bronze,email,2020-01-01,9999-12-31,True
+349,C0382,Zineb Idrissi,25-34,f,Marrakech,Bronze,referral,2020-01-01,9999-12-31,True
+350,C0279,Khalid Cherkaoui,45-54,m,Casablanca,Bronze,referral,2020-01-01,9999-12-31,True
+351,C0040,Mohamed Cherkaoui,25-34,m,Non renseignée,Bronze,referral,2020-01-01,9999-12-31,True
+352,C0819,Tariq Guerraoui,35-44,m,Tanger,Bronze,paid_search,2020-01-01,9999-12-31,True
+353,C0262,Rachid Guerraoui,18-24,m,Oujda,Bronze,social_media,2020-01-01,9999-12-31,True
+354,C0037,Houda Guerraoui,45-54,f,Marrakech,Bronze,referral,2020-01-01,9999-12-31,True
+355,C0586,Khalid Benali,18-24,m,Non renseignée,Bronze,email,2020-01-01,9999-12-31,True
+356,C0491,Khadija Lahlou,45-54,f,Casablanca,Bronze,social_media,2020-01-01,9999-12-31,True
+357,C0589,Sara Idrissi,25-34,f,Tanger,Bronze,email,2020-01-01,9999-12-31,True
+358,C0854,Khalid Alami,18-24,m,Casablanca,Bronze,social_media,2020-01-01,9999-12-31,True
+359,C0461,Imane Lahlou,45-54,f,Fès,Bronze,referral,2020-01-01,9999-12-31,True
+360,C0429,Imane Tazi,25-34,f,Non renseignée,Bronze,email,2020-01-01,9999-12-31,True
+361,C0693,Rachid Berrada,25-34,m,Tanger,Bronze,referral,2020-01-01,9999-12-31,True
+362,C0318,Sara Benomar,55-64,f,Rabat,Bronze,paid_search,2020-01-01,9999-12-31,True
+363,C0492,Rachid Berrada,55-64,m,Tanger,Bronze,email,2020-01-01,9999-12-31,True
+364,C0993,Rachid Tazi,18-24,m,Non renseignée,Bronze,paid_search,2020-01-01,9999-12-31,True
+365,C0784,Khadija Benomar,25-34,f,Marrakech,Bronze,email,2020-01-01,9999-12-31,True
+366,C0925,Imane Benali,25-34,f,Rabat,Bronze,social_media,2020-01-01,9999-12-31,True
+367,C0353,Omar Berrada,25-34,m,Non renseignée,Bronze,email,2020-01-01,9999-12-31,True
+368,C0074,Nadia Idrissi,18-24,f,Non renseignée,Bronze,email,2020-01-01,9999-12-31,True
+369,C0845,Houda Idrissi,25-34,f,Casablanca,Bronze,referral,2020-01-01,9999-12-31,True
+370,C0507,Rachid Filali,35-44,m,Casablanca,Bronze,organic,2020-01-01,9999-12-31,True
+371,C0380,Karim Tazi,55-64,m,Non renseignée,Bronze,social_media,2020-01-01,9999-12-31,True
+372,C0837,Zineb Berrada,35-44,f,Casablanca,Bronze,referral,2020-01-01,9999-12-31,True
+373,C0494,Karim Alami,35-44,m,Rabat,Bronze,organic,2020-01-01,9999-12-31,True
+374,C0097,Fatima Benali,55-64,f,Non renseignée,Bronze,referral,2020-01-01,9999-12-31,True
+375,C0794,Youssef Filali,35-44,m,Non renseignée,Bronze,organic,2020-01-01,9999-12-31,True
+376,C0850,Sanaa Benali,35-44,f,Non renseignée,Bronze,social_media,2020-01-01,9999-12-31,True
+377,C0145,Rachid Cherkaoui,25-34,m,Agadir,Bronze,social_media,2020-01-01,9999-12-31,True
+378,C0777,Fatima Benomar,25-34,f,Tanger,Bronze,email,2020-01-01,9999-12-31,True
+379,C0659,Mohamed Tazi,45-54,m,Oujda,Bronze,organic,2020-01-01,9999-12-31,True
+380,C0701,Rachid Cherkaoui,35-44,m,Rabat,Bronze,paid_search,2020-01-01,9999-12-31,True
+381,C0555,Imane Guerraoui,45-54,f,Fès,Bronze,email,2020-01-01,9999-12-31,True
+382,C0813,Khadija Guerraoui,35-44,f,Marrakech,Bronze,paid_search,2020-01-01,9999-12-31,True
+383,C0604,Sara Lahlou,18-24,f,Non renseignée,Bronze,social_media,2020-01-01,9999-12-31,True
+384,C0460,Mohamed Benali,45-54,m,Rabat,Bronze,paid_search,2020-01-01,9999-12-31,True
+385,C0153,Fatima Benomar,25-34,f,Marrakech,Bronze,email,2020-01-01,9999-12-31,True
+386,C0107,Hassan Filali,35-44,m,Fès,Bronze,email,2020-01-01,9999-12-31,True
+387,C0767,Khadija Lahlou,25-34,f,Oujda,Bronze,social_media,2020-01-01,9999-12-31,True
+388,C0195,Sara Lahlou,45-54,f,Rabat,Bronze,email,2020-01-01,9999-12-31,True
+389,C0159,Rachid Tazi,25-34,m,Fès,Bronze,email,2020-01-01,9999-12-31,True
+390,C0564,Houda Berrada,18-24,f,Non renseignée,Bronze,email,2020-01-01,9999-12-31,True
+391,C0660,Sara Berrada,45-54,f,Rabat,Bronze,paid_search,2020-01-01,9999-12-31,True
+392,C0961,Imane Berrada,25-34,f,Oujda,Bronze,organic,2020-01-01,9999-12-31,True
+393,C0255,Khalid Tazi,35-44,m,Casablanca,Bronze,social_media,2020-01-01,9999-12-31,True
+394,C0540,Sanaa Cherkaoui,45-54,f,Rabat,Bronze,email,2020-01-01,9999-12-31,True
+395,C0095,Ahmed Lahlou,35-44,m,Tanger,Bronze,paid_search,2020-01-01,9999-12-31,True
+396,C0712,Ahmed Lahlou,25-34,m,Non renseignée,Bronze,social_media,2020-01-01,9999-12-31,True
+397,C0889,Mohamed Lahlou,55-64,m,Fès,Bronze,organic,2020-01-01,9999-12-31,True
+398,C0054,Nadia Alami,25-34,f,Tanger,Bronze,paid_search,2020-01-01,9999-12-31,True
+399,C0775,Karim Cherkaoui,35-44,m,Non renseignée,Bronze,paid_search,2020-01-01,9999-12-31,True
+400,C0311,Karim Idrissi,35-44,m,Oujda,Bronze,email,2020-01-01,9999-12-31,True
+401,C0472,Hassan Benomar,25-34,m,Marrakech,Bronze,social_media,2020-01-01,9999-12-31,True
+402,C1460,Meryem Berrada,18-24,f,Agadir,Bronze,organic,2020-01-01,9999-12-31,True
+403,C0643,Khadija Idrissi,25-34,f,Non renseignée,Bronze,organic,2020-01-01,9999-12-31,True
+404,C0729,Tariq Alami,18-24,m,Tanger,Bronze,organic,2020-01-01,9999-12-31,True
+405,C0999,Youssef Berrada,35-44,m,Non renseignée,Bronze,social_media,2020-01-01,9999-12-31,True
+406,C0105,Ahmed Idrissi,18-24,m,Non renseignée,Bronze,referral,2020-01-01,9999-12-31,True
+407,C0870,Meryem Tazi,55-64,f,Fès,Bronze,organic,2020-01-01,9999-12-31,True
+408,C0270,Sara Tazi,25-34,f,Fès,Bronze,organic,2020-01-01,9999-12-31,True
+409,C0392,Khalid Benomar,25-34,m,Tanger,Bronze,email,2020-01-01,9999-12-31,True
+410,C0088,Sanaa Idrissi,45-54,f,Non renseignée,Bronze,social_media,2020-01-01,9999-12-31,True
+411,C0763,Mohamed Benomar,25-34,m,Agadir,Bronze,email,2020-01-01,9999-12-31,True
+412,C0752,Hassan Idrissi,55-64,m,Casablanca,Bronze,referral,2020-01-01,9999-12-31,True
+413,C0291,Hassan Benomar,45-54,m,Non renseignée,Bronze,paid_search,2020-01-01,9999-12-31,True
+414,C0310,Ahmed Tazi,35-44,m,Non renseignée,Bronze,paid_search,2020-01-01,9999-12-31,True
+415,C0516,Youssef Cherkaoui,35-44,m,Non renseignée,Bronze,referral,2020-01-01,9999-12-31,True
+416,C0734,Houda Alami,45-54,f,Non renseignée,Bronze,email,2020-01-01,9999-12-31,True
+417,C0847,Karim Cherkaoui,45-54,m,Non renseignée,Bronze,referral,2020-01-01,9999-12-31,True
+418,C1069,Nadia Idrissi,25-34,f,Oujda,Bronze,paid_search,2020-01-01,9999-12-31,True
+419,C0125,Tariq Benomar,45-54,m,Oujda,Bronze,social_media,2020-01-01,9999-12-31,True
+420,C0484,Houda Tazi,,f,Non renseignée,Bronze,paid_search,2020-01-01,9999-12-31,True
+421,C0162,Mohamed Guerraoui,45-54,m,Agadir,Bronze,social_media,2020-01-01,9999-12-31,True
+422,C0759,Hassan Filali,,m,Agadir,Bronze,email,2020-01-01,9999-12-31,True
+423,C0634,Karim Benali,35-44,m,Fès,Bronze,referral,2020-01-01,9999-12-31,True
+424,C0100,Ahmed Benomar,18-24,m,Non renseignée,Bronze,social_media,2020-01-01,9999-12-31,True
+425,C0836,Khadija Cherkaoui,55-64,f,Non renseignée,Bronze,social_media,2020-01-01,9999-12-31,True
+426,C0628,Karim Berrada,35-44,m,Fès,Bronze,organic,2020-01-01,9999-12-31,True
+427,C0976,Zineb Guerraoui,45-54,f,Marrakech,Bronze,referral,2020-01-01,9999-12-31,True
+428,C0048,Khadija Benomar,25-34,f,Agadir,Bronze,referral,2020-01-01,9999-12-31,True
+429,C0505,Amine Alami,55-64,m,Rabat,Bronze,referral,2020-01-01,9999-12-31,True
+430,C0520,Sara Alami,35-44,f,Non renseignée,Bronze,organic,2020-01-01,9999-12-31,True
+431,C0942,Youssef Cherkaoui,55-64,m,Rabat,Bronze,paid_search,2020-01-01,9999-12-31,True
+432,C0582,Rachid Tazi,25-34,m,Agadir,Bronze,paid_search,2020-01-01,9999-12-31,True
+433,C0967,Khalid Idrissi,45-54,m,Marrakech,Bronze,social_media,2020-01-01,9999-12-31,True
+434,C0865,Youssef Berrada,35-44,m,Non renseignée,Bronze,email,2020-01-01,9999-12-31,True
+435,C0192,Mohamed Benali,45-54,m,Fès,Bronze,referral,2020-01-01,9999-12-31,True
+436,C0299,Zineb Guerraoui,25-34,f,Fès,Bronze,social_media,2020-01-01,9999-12-31,True
+437,C0066,Mohamed Cherkaoui,18-24,m,Rabat,Bronze,email,2020-01-01,9999-12-31,True
+438,C0873,Ahmed Benomar,55-64,m,Fès,Bronze,paid_search,2020-01-01,9999-12-31,True
+439,C0936,Khadija Tazi,25-34,f,Agadir,Bronze,social_media,2020-01-01,9999-12-31,True
+440,C0024,Nadia Cherkaoui,55-64,f,Marrakech,Bronze,social_media,2020-01-01,9999-12-31,True
+441,C0547,Youssef Benomar,25-34,m,Non renseignée,Bronze,organic,2020-01-01,9999-12-31,True
+442,C0374,Tariq Lahlou,55-64,m,Casablanca,Bronze,referral,2020-01-01,9999-12-31,True
+443,C0480,Omar Filali,18-24,m,Oujda,Bronze,email,2020-01-01,9999-12-31,True
+444,C0149,Zineb Idrissi,45-54,f,Tanger,Bronze,referral,2020-01-01,9999-12-31,True
+445,C0451,Omar Alami,18-24,m,Fès,Bronze,organic,2020-01-01,9999-12-31,True
+446,C0833,Sanaa Idrissi,35-44,f,Marrakech,Bronze,email,2020-01-01,9999-12-31,True
+447,C0345,Rachid Benomar,35-44,m,Rabat,Bronze,email,2020-01-01,9999-12-31,True
+448,C0648,Fatima Berrada,55-64,f,Marrakech,Bronze,referral,2020-01-01,9999-12-31,True
+449,C0857,Omar Benomar,18-24,m,Oujda,Bronze,organic,2020-01-01,9999-12-31,True
+450,C0288,Laila Cherkaoui,45-54,f,Oujda,Bronze,referral,2020-01-01,9999-12-31,True
+451,C0550,Omar Filali,45-54,m,Non renseignée,Bronze,referral,2020-01-01,9999-12-31,True
+452,C0594,Laila Lahlou,,f,Non renseignée,Bronze,organic,2020-01-01,9999-12-31,True
+453,C0591,Ahmed Benomar,55-64,m,Marrakech,Bronze,social_media,2020-01-01,9999-12-31,True
+454,C0430,Tariq Berrada,55-64,m,Non renseignée,Bronze,organic,2020-01-01,9999-12-31,True
+455,C0474,Ahmed Tazi,25-34,m,Non renseignée,Bronze,social_media,2020-01-01,9999-12-31,True
+456,C0307,Sanaa Alami,18-24,f,Casablanca,Bronze,referral,2020-01-01,9999-12-31,True
+457,C0050,Houda Benali,45-54,f,Non renseignée,Bronze,email,2020-01-01,9999-12-31,True
+458,C0468,Houda Berrada,35-44,f,Tanger,Bronze,referral,2020-01-01,9999-12-31,True
+459,C0133,Mohamed Benomar,25-34,m,Agadir,Bronze,paid_search,2020-01-01,9999-12-31,True
+460,C0702,Nadia Cherkaoui,55-64,f,Fès,Bronze,email,2020-01-01,9999-12-31,True
+461,C0980,Meryem Alami,25-34,f,Casablanca,Bronze,email,2020-01-01,9999-12-31,True
+462,C0640,Tariq Idrissi,45-54,m,Fès,Bronze,referral,2020-01-01,9999-12-31,True
+463,C0580,Mohamed Lahlou,,m,Non renseignée,Bronze,paid_search,2020-01-01,9999-12-31,True
+464,C0170,Karim Guerraoui,35-44,m,Oujda,Bronze,paid_search,2020-01-01,9999-12-31,True
+465,C0117,Mohamed Alami,18-24,m,Agadir,Bronze,social_media,2020-01-01,9999-12-31,True
+466,C0115,Ahmed Lahlou,18-24,m,Rabat,Bronze,email,2020-01-01,9999-12-31,True
+467,C0096,Nadia Alami,25-34,f,Fès,Bronze,referral,2020-01-01,9999-12-31,True
+468,C0493,Ahmed Guerraoui,25-34,m,Oujda,Bronze,referral,2020-01-01,9999-12-31,True
+469,C0785,Ahmed Filali,45-54,m,Fès,Bronze,referral,2020-01-01,9999-12-31,True
+470,C0725,Ahmed Lahlou,25-34,m,Marrakech,Bronze,referral,2020-01-01,9999-12-31,True
+471,C0596,Tariq Filali,55-64,m,Non renseignée,Bronze,email,2020-01-01,9999-12-31,True
+472,C0796,Tariq Benali,35-44,m,Oujda,Bronze,email,2020-01-01,9999-12-31,True
+473,C0298,Youssef Filali,18-24,m,Marrakech,Bronze,social_media,2020-01-01,9999-12-31,True
+474,C0081,Nadia Tazi,25-34,f,Agadir,Bronze,referral,2020-01-01,9999-12-31,True
+475,C0459,Fatima Filali,18-24,f,Rabat,Bronze,paid_search,2020-01-01,9999-12-31,True
+476,C0424,Sanaa Filali,55-64,f,Tanger,Bronze,social_media,2020-01-01,9999-12-31,True
+477,C0207,Mohamed Berrada,45-54,m,Marrakech,Bronze,organic,2020-01-01,9999-12-31,True
+478,C0343,Imane Idrissi,45-54,f,Casablanca,Bronze,email,2020-01-01,9999-12-31,True
+479,C0007,Laila Filali,35-44,f,Non renseignée,Bronze,paid_search,2020-01-01,9999-12-31,True
+480,C0600,Karim Benomar,35-44,m,Non renseignée,Bronze,organic,2020-01-01,9999-12-31,True
+481,C0920,Khadija Tazi,18-24,f,Non renseignée,Bronze,organic,2020-01-01,9999-12-31,True
+482,C0286,Houda Tazi,45-54,f,Non renseignée,Bronze,organic,2020-01-01,9999-12-31,True
+483,C0456,Karim Filali,25-34,m,Tanger,Bronze,paid_search,2020-01-01,9999-12-31,True
+484,C0778,Zineb Alami,35-44,f,Non renseignée,Bronze,organic,2020-01-01,9999-12-31,True
+485,C0686,Rachid Idrissi,,m,Fès,Bronze,paid_search,2020-01-01,9999-12-31,True
+486,C0657,Hassan Lahlou,35-44,m,Non renseignée,Bronze,email,2020-01-01,9999-12-31,True
+487,C0238,Meryem Tazi,35-44,f,Rabat,Bronze,social_media,2020-01-01,9999-12-31,True
+488,C1163,Sara Benomar,45-54,f,Non renseignée,Bronze,referral,2020-01-01,9999-12-31,True
+489,C0810,Omar Filali,25-34,m,Casablanca,Bronze,paid_search,2020-01-01,9999-12-31,True
+490,C0705,Houda Tazi,18-24,f,Oujda,Bronze,referral,2020-01-01,9999-12-31,True
+491,C0204,Amine Idrissi,18-24,m,Non renseignée,Bronze,referral,2020-01-01,9999-12-31,True
+492,C0025,Khalid Idrissi,45-54,m,Non renseignée,Bronze,email,2020-01-01,9999-12-31,True
+493,C0568,Karim Benomar,45-54,m,Non renseignée,Bronze,social_media,2020-01-01,9999-12-31,True
+494,C0165,Sanaa Idrissi,45-54,f,Agadir,Bronze,email,2020-01-01,9999-12-31,True
+495,C0931,Omar Filali,,m,Fès,Bronze,social_media,2020-01-01,9999-12-31,True
+496,C0746,Amine Idrissi,55-64,m,Tanger,Bronze,email,2020-01-01,9999-12-31,True
+497,C0745,Khalid Tazi,25-34,m,Non renseignée,Bronze,email,2020-01-01,9999-12-31,True
+498,C0933,Imane Benali,35-44,f,Fès,Bronze,organic,2020-01-01,9999-12-31,True
+499,C0408,Hassan Guerraoui,18-24,m,Rabat,Bronze,email,2020-01-01,9999-12-31,True
+500,C0632,Ahmed Berrada,45-54,m,Agadir,Bronze,organic,2020-01-01,9999-12-31,True
+501,C0592,Meryem Lahlou,45-54,f,Casablanca,Bronze,organic,2020-01-01,9999-12-31,True
+502,C0361,Zineb Berrada,18-24,f,Oujda,Bronze,paid_search,2020-01-01,9999-12-31,True
+503,C0750,Youssef Tazi,45-54,m,Fès,Bronze,organic,2020-01-01,9999-12-31,True
+504,C0003,Omar Tazi,18-24,m,Oujda,Bronze,email,2020-01-01,9999-12-31,True
+505,C0324,Imane Idrissi,35-44,f,Non renseignée,Bronze,email,2020-01-01,9999-12-31,True
+506,C0067,Hassan Berrada,45-54,m,Agadir,Bronze,paid_search,2020-01-01,9999-12-31,True
+507,C0073,Imane Idrissi,25-34,f,Oujda,Bronze,social_media,2020-01-01,9999-12-31,True
+508,C0655,Houda Tazi,18-24,f,Agadir,Bronze,email,2020-01-01,9999-12-31,True
+509,C0593,Fatima Benali,18-24,f,Tanger,Bronze,organic,2020-01-01,9999-12-31,True
+510,C0816,Nadia Lahlou,45-54,f,Oujda,Bronze,referral,2020-01-01,9999-12-31,True
+511,C0334,Imane Berrada,25-34,f,Tanger,Bronze,paid_search,2020-01-01,9999-12-31,True
+512,C0772,Youssef Guerraoui,35-44,m,Casablanca,Bronze,paid_search,2020-01-01,9999-12-31,True
+513,C0071,Nadia Tazi,35-44,f,Rabat,Bronze,paid_search,2020-01-01,9999-12-31,True
+514,C0434,Rachid Tazi,45-54,m,Oujda,Bronze,referral,2020-01-01,9999-12-31,True
+515,C0269,Zineb Benomar,45-54,f,Non renseignée,Bronze,organic,2020-01-01,9999-12-31,True
+516,C0134,Sanaa Tazi,45-54,f,Casablanca,Bronze,referral,2020-01-01,9999-12-31,True
+517,C1698,Karim Idrissi,25-34,m,Rabat,Bronze,referral,2020-01-01,9999-12-31,True
+518,C0642,Khalid Cherkaoui,18-24,m,Casablanca,Bronze,email,2020-01-01,9999-12-31,True
+519,C0329,Mohamed Filali,18-24,m,Fès,Bronze,email,2020-01-01,9999-12-31,True
+520,C0249,Ahmed Tazi,25-34,m,Non renseignée,Bronze,referral,2020-01-01,9999-12-31,True
+521,C0385,Youssef Tazi,35-44,m,Marrakech,Bronze,email,2020-01-01,9999-12-31,True
+522,C0177,Karim Filali,25-34,m,Non renseignée,Bronze,social_media,2020-01-01,9999-12-31,True
+523,C0994,Karim Idrissi,35-44,m,Casablanca,Bronze,referral,2020-01-01,9999-12-31,True
+524,C0795,Houda Cherkaoui,45-54,f,Tanger,Bronze,email,2020-01-01,9999-12-31,True
+525,C0940,Tariq Benomar,25-34,m,Marrakech,Bronze,organic,2020-01-01,9999-12-31,True
+526,C0624,Houda Benomar,45-54,f,Casablanca,Bronze,organic,2020-01-01,9999-12-31,True
+527,C0748,Zineb Tazi,25-34,f,Rabat,Bronze,social_media,2020-01-01,9999-12-31,True
+528,C0415,Tariq Guerraoui,,m,Casablanca,Bronze,email,2020-01-01,9999-12-31,True
+529,C0313,Imane Lahlou,55-64,f,Oujda,Bronze,email,2020-01-01,9999-12-31,True
+530,C0226,Omar Lahlou,25-34,m,Marrakech,Bronze,social_media,2020-01-01,9999-12-31,True
+531,C0518,Omar Tazi,45-54,m,Oujda,Bronze,social_media,2020-01-01,9999-12-31,True
+532,C0867,Mohamed Guerraoui,25-34,m,Non renseignée,Bronze,referral,2020-01-01,9999-12-31,True
+533,C0231,Khalid Alami,35-44,m,Rabat,Bronze,organic,2020-01-01,9999-12-31,True
+534,C0639,Youssef Berrada,,m,Agadir,Bronze,referral,2020-01-01,9999-12-31,True
+535,C0528,Karim Tazi,18-24,m,Marrakech,Bronze,paid_search,2020-01-01,9999-12-31,True
+536,C0098,Hassan Lahlou,35-44,m,Non renseignée,Bronze,social_media,2020-01-01,9999-12-31,True
+537,C0254,Khalid Lahlou,45-54,m,Non renseignée,Bronze,paid_search,2020-01-01,9999-12-31,True
+538,C1119,Youssef Filali,35-44,m,Marrakech,Bronze,organic,2020-01-01,9999-12-31,True
+539,C0127,Fatima Guerraoui,25-34,f,Non renseignée,Bronze,email,2020-01-01,9999-12-31,True
+540,C0970,Imane Idrissi,55-64,f,Oujda,Bronze,referral,2020-01-01,9999-12-31,True
+541,C1653,Khalid Benali,25-34,m,Rabat,Bronze,social_media,2020-01-01,9999-12-31,True
+542,C0887,Omar Benomar,25-34,m,Rabat,Bronze,social_media,2020-01-01,9999-12-31,True
+543,C0978,Mohamed Benomar,25-34,m,Non renseignée,Bronze,email,2020-01-01,9999-12-31,True
+544,C0092,Amine Filali,35-44,m,Rabat,Bronze,paid_search,2020-01-01,9999-12-31,True
+545,C0905,Khadija Idrissi,45-54,f,Rabat,Bronze,referral,2020-01-01,9999-12-31,True
+546,C0963,Youssef Idrissi,45-54,m,Marrakech,Bronze,email,2020-01-01,9999-12-31,True
+547,C0215,Amine Benali,25-34,m,Non renseignée,Bronze,email,2020-01-01,9999-12-31,True
+548,C0789,Nadia Lahlou,45-54,f,Tanger,Bronze,organic,2020-01-01,9999-12-31,True
+549,C0056,Imane Berrada,35-44,f,Rabat,Bronze,email,2020-01-01,9999-12-31,True
+550,C0779,Nadia Guerraoui,18-24,f,Non renseignée,Bronze,paid_search,2020-01-01,9999-12-31,True
+551,C0142,Meryem Lahlou,45-54,f,Non renseignée,Bronze,email,2020-01-01,9999-12-31,True
+552,C0407,Hassan Benomar,45-54,m,Non renseignée,Bronze,email,2020-01-01,9999-12-31,True
+553,C0934,Hassan Guerraoui,35-44,m,Casablanca,Bronze,paid_search,2020-01-01,9999-12-31,True
+554,C0522,Laila Benomar,45-54,f,Agadir,Bronze,paid_search,2020-01-01,9999-12-31,True
+555,C0065,Youssef Berrada,25-34,m,Casablanca,Bronze,email,2020-01-01,9999-12-31,True
+556,C0719,Imane Benomar,45-54,f,Casablanca,Bronze,paid_search,2020-01-01,9999-12-31,True
+557,C0542,Tariq Guerraoui,25-34,m,Non renseignée,Bronze,social_media,2020-01-01,9999-12-31,True
+558,C0862,Houda Berrada,45-54,f,Oujda,Bronze,paid_search,2020-01-01,9999-12-31,True
+559,C0912,Khadija Benali,25-34,f,Non renseignée,Bronze,email,2020-01-01,9999-12-31,True
+560,C0930,Amine Filali,35-44,m,Marrakech,Bronze,referral,2020-01-01,9999-12-31,True
+561,C0386,Meryem Tazi,45-54,f,Non renseignée,Bronze,email,2020-01-01,9999-12-31,True
+562,C0617,Khadija Benali,55-64,f,Rabat,Bronze,organic,2020-01-01,9999-12-31,True
+563,C1292,Khalid Benali,45-54,m,Agadir,Bronze,paid_search,2020-01-01,9999-12-31,True
+564,C0114,Youssef Lahlou,45-54,m,Casablanca,Bronze,email,2020-01-01,9999-12-31,True
+565,C0224,Hassan Tazi,35-44,m,Casablanca,Bronze,organic,2020-01-01,9999-12-31,True
+566,C0046,Imane Lahlou,35-44,f,Casablanca,Bronze,organic,2020-01-01,9999-12-31,True
+567,C0032,Ahmed Guerraoui,25-34,m,Non renseignée,Bronze,referral,2020-01-01,9999-12-31,True
+568,C0788,Sara Benomar,25-34,f,Tanger,Bronze,paid_search,2020-01-01,9999-12-31,True
+569,C0806,Tariq Guerraoui,45-54,m,Tanger,Bronze,paid_search,2020-01-01,9999-12-31,True
+570,C0042,Khalid Benali,35-44,m,Non renseignée,Bronze,organic,2020-01-01,9999-12-31,True
+571,C0546,Youssef Idrissi,25-34,m,Oujda,Bronze,organic,2020-01-01,9999-12-31,True
+572,C0427,Zineb Filali,25-34,f,Non renseignée,Bronze,referral,2020-01-01,9999-12-31,True
+573,C0869,Nadia Guerraoui,35-44,f,Oujda,Bronze,email,2020-01-01,9999-12-31,True
+574,C0497,Khadija Alami,45-54,f,Non renseignée,Bronze,social_media,2020-01-01,9999-12-31,True
+575,C0718,Rachid Berrada,45-54,m,Rabat,Bronze,organic,2020-01-01,9999-12-31,True
+576,C0853,Rachid Filali,18-24,m,Non renseignée,Bronze,organic,2020-01-01,9999-12-31,True
+577,C0057,Mohamed Cherkaoui,25-34,m,Non renseignée,Bronze,email,2020-01-01,9999-12-31,True
+578,C0565,Laila Alami,18-24,f,Casablanca,Bronze,organic,2020-01-01,9999-12-31,True
+579,C0839,Mohamed Guerraoui,55-64,m,Fès,Bronze,email,2020-01-01,9999-12-31,True
+580,C0710,Mohamed Guerraoui,25-34,m,Tanger,Bronze,paid_search,2020-01-01,9999-12-31,True
+581,C0588,Nadia Benali,25-34,f,Oujda,Bronze,organic,2020-01-01,9999-12-31,True
+582,C0201,Khadija Alami,35-44,f,Agadir,Bronze,email,2020-01-01,9999-12-31,True
+583,C0495,Khalid Idrissi,18-24,m,Oujda,Bronze,organic,2020-01-01,9999-12-31,True
+584,C1707,Sara Lahlou,25-34,f,Oujda,Bronze,paid_search,2020-01-01,9999-12-31,True
+585,C0055,Omar Lahlou,45-54,m,Oujda,Bronze,email,2020-01-01,9999-12-31,True
+586,C0378,Houda Lahlou,18-24,f,Fès,Bronze,email,2020-01-01,9999-12-31,True
+587,C0087,Youssef Lahlou,18-24,m,Non renseignée,Bronze,organic,2020-01-01,9999-12-31,True
+588,C0685,Mohamed Benomar,35-44,m,Rabat,Bronze,paid_search,2020-01-01,9999-12-31,True
+589,C0376,Meryem Benali,25-34,f,Non renseignée,Bronze,referral,2020-01-01,9999-12-31,True
+590,C0289,Tariq Benomar,18-24,m,Tanger,Bronze,referral,2020-01-01,9999-12-31,True
+591,C0175,Khadija Alami,35-44,f,Tanger,Bronze,social_media,2020-01-01,9999-12-31,True
+592,C0512,Tariq Idrissi,45-54,m,Marrakech,Bronze,organic,2020-01-01,9999-12-31,True
+593,C0787,Karim Cherkaoui,18-24,m,Rabat,Bronze,paid_search,2020-01-01,9999-12-31,True
+594,C0119,Sanaa Cherkaoui,45-54,f,Agadir,Bronze,referral,2020-01-01,9999-12-31,True
+595,C0305,Tariq Alami,25-34,m,Non renseignée,Bronze,referral,2020-01-01,9999-12-31,True
+596,C0446,Zineb Idrissi,35-44,f,Agadir,Bronze,paid_search,2020-01-01,9999-12-31,True
+597,C0554,Sara Guerraoui,45-54,f,Casablanca,Bronze,organic,2020-01-01,9999-12-31,True
+598,C0242,Amine Berrada,35-44,m,Tanger,Bronze,paid_search,2020-01-01,9999-12-31,True
+599,C0161,Fatima Berrada,18-24,f,Tanger,Bronze,email,2020-01-01,9999-12-31,True
+600,C0943,Meryem Filali,35-44,f,Agadir,Bronze,referral,2020-01-01,9999-12-31,True
+601,C0184,Houda Benomar,,f,Non renseignée,Bronze,referral,2020-01-01,9999-12-31,True
+602,C0053,Mohamed Cherkaoui,45-54,m,Tanger,Bronze,paid_search,2020-01-01,9999-12-31,True
+603,C0989,Zineb Lahlou,25-34,f,Rabat,Bronze,email,2020-01-01,9999-12-31,True
+604,C0662,Youssef Lahlou,55-64,m,Oujda,Bronze,social_media,2020-01-01,9999-12-31,True
+605,C0442,Karim Idrissi,25-34,m,Non renseignée,Bronze,organic,2020-01-01,9999-12-31,True
+606,C0033,Zineb Idrissi,55-64,f,Non renseignée,Bronze,paid_search,2020-01-01,9999-12-31,True
+607,C0379,Omar Tazi,35-44,m,Marrakech,Bronze,paid_search,2020-01-01,9999-12-31,True
+608,C0016,Khadija Berrada,25-34,f,Oujda,Bronze,organic,2020-01-01,9999-12-31,True
+609,C0479,Omar Idrissi,35-44,m,Non renseignée,Bronze,referral,2020-01-01,9999-12-31,True
+610,C0346,Khadija Filali,35-44,f,Marrakech,Bronze,email,2020-01-01,9999-12-31,True
+611,C0258,Hassan Cherkaoui,25-34,m,Tanger,Bronze,referral,2020-01-01,9999-12-31,True
+612,C0158,Houda Cherkaoui,45-54,f,Non renseignée,Bronze,referral,2020-01-01,9999-12-31,True
+613,C0436,Rachid Idrissi,35-44,m,Non renseignée,Bronze,social_media,2020-01-01,9999-12-31,True
+614,C0563,Sanaa Benali,35-44,f,Tanger,Bronze,email,2020-01-01,9999-12-31,True
+615,C0757,Amine Lahlou,35-44,m,Agadir,Bronze,organic,2020-01-01,9999-12-31,True
+616,C0447,Mohamed Berrada,55-64,m,Oujda,Bronze,organic,2020-01-01,9999-12-31,True
+617,C0200,Sara Benomar,25-34,f,Fès,Bronze,social_media,2020-01-01,9999-12-31,True
+618,C0915,Ahmed Alami,25-34,m,Marrakech,Bronze,email,2020-01-01,9999-12-31,True
+619,C1118,Sara Tazi,55-64,f,Non renseignée,Bronze,social_media,2020-01-01,9999-12-31,True
+620,C0608,Ahmed Alami,25-34,m,Oujda,Bronze,referral,2020-01-01,9999-12-31,True
+621,C0268,Tariq Filali,45-54,m,Rabat,Bronze,paid_search,2020-01-01,9999-12-31,True
+622,C0294,Zineb Cherkaoui,55-64,f,Non renseignée,Bronze,email,2020-01-01,9999-12-31,True
+623,C0422,Mohamed Berrada,18-24,m,Tanger,Bronze,social_media,2020-01-01,9999-12-31,True
+624,C0509,Ahmed Guerraoui,25-34,m,Non renseignée,Bronze,paid_search,2020-01-01,9999-12-31,True
+625,C0332,Ahmed Guerraoui,18-24,m,Marrakech,Bronze,email,2020-01-01,9999-12-31,True
+626,C0744,Tariq Alami,25-34,m,Marrakech,Bronze,referral,2020-01-01,9999-12-31,True
+627,C0498,Imane Idrissi,18-24,f,Marrakech,Bronze,organic,2020-01-01,9999-12-31,True
+628,C0658,Imane Alami,25-34,f,Marrakech,Bronze,email,2020-01-01,9999-12-31,True
+629,C0156,Rachid Alami,18-24,m,Tanger,Bronze,organic,2020-01-01,9999-12-31,True
+630,C0896,Laila Filali,45-54,f,Oujda,Bronze,paid_search,2020-01-01,9999-12-31,True
+631,C0618,Karim Berrada,25-34,m,Non renseignée,Bronze,paid_search,2020-01-01,9999-12-31,True
+632,C0186,Amine Tazi,18-24,m,Non renseignée,Bronze,referral,2020-01-01,9999-12-31,True
+633,C0684,Amine Berrada,18-24,m,Non renseignée,Bronze,referral,2020-01-01,9999-12-31,True
+634,C0435,Zineb Lahlou,35-44,f,Casablanca,Bronze,referral,2020-01-01,9999-12-31,True
+635,C0277,Zineb Guerraoui,45-54,f,Oujda,Bronze,organic,2020-01-01,9999-12-31,True
+636,C0416,Houda Cherkaoui,45-54,f,Non renseignée,Bronze,paid_search,2020-01-01,9999-12-31,True
+637,C0598,Laila Berrada,18-24,f,Fès,Bronze,social_media,2020-01-01,9999-12-31,True
+638,C0008,Khadija Alami,45-54,f,Casablanca,Bronze,social_media,2020-01-01,9999-12-31,True
+639,C0058,Youssef Filali,45-54,m,Non renseignée,Bronze,referral,2020-01-01,9999-12-31,True
+640,C0733,Ahmed Idrissi,35-44,m,Oujda,Bronze,email,2020-01-01,9999-12-31,True
+641,C0362,Mohamed Benomar,25-34,m,Rabat,Bronze,email,2020-01-01,9999-12-31,True
+642,C0168,Laila Guerraoui,35-44,f,Oujda,Bronze,paid_search,2020-01-01,9999-12-31,True
+643,C0356,Khalid Benomar,55-64,m,Marrakech,Bronze,paid_search,2020-01-01,9999-12-31,True
+644,C0556,Ahmed Tazi,45-54,m,Non renseignée,Bronze,social_media,2020-01-01,9999-12-31,True
+645,C0425,Meryem Lahlou,35-44,f,Non renseignée,Bronze,paid_search,2020-01-01,9999-12-31,True
+646,C0453,Fatima Alami,45-54,f,Non renseignée,Bronze,paid_search,2020-01-01,9999-12-31,True
+647,C0651,Hassan Tazi,45-54,m,Non renseignée,Bronze,organic,2020-01-01,9999-12-31,True
+648,C0208,Youssef Idrissi,45-54,m,Casablanca,Bronze,paid_search,2020-01-01,9999-12-31,True
+649,C0237,Imane Benomar,45-54,f,Fès,Bronze,social_media,2020-01-01,9999-12-31,True
+650,C0476,Sara Benomar,18-24,f,Oujda,Bronze,paid_search,2020-01-01,9999-12-31,True
+651,C0166,Meryem Cherkaoui,18-24,f,Non renseignée,Bronze,social_media,2020-01-01,9999-12-31,True
+652,C0992,Karim Filali,25-34,m,Agadir,Bronze,email,2020-01-01,9999-12-31,True
+653,C0110,Amine Guerraoui,45-54,m,Marrakech,Bronze,email,2020-01-01,9999-12-31,True
+654,C0483,Amine Filali,,m,Casablanca,Bronze,referral,2020-01-01,9999-12-31,True
+655,C0962,Rachid Berrada,18-24,m,Non renseignée,Bronze,paid_search,2020-01-01,9999-12-31,True
+656,C1924,Houda Tazi,45-54,f,Non renseignée,Bronze,referral,2020-01-01,9999-12-31,True
+657,C0064,Ahmed Alami,45-54,m,Non renseignée,Bronze,paid_search,2020-01-01,9999-12-31,True
+658,C0244,Ahmed Tazi,35-44,m,Casablanca,Bronze,referral,2020-01-01,9999-12-31,True
+659,C0190,Sanaa Benomar,25-34,f,Non renseignée,Bronze,social_media,2020-01-01,9999-12-31,True
+660,C0846,Omar Filali,35-44,m,Non renseignée,Bronze,email,2020-01-01,9999-12-31,True
+661,C0532,Khalid Filali,25-34,m,Oujda,Bronze,referral,2020-01-01,9999-12-31,True
+662,C0690,Rachid Berrada,35-44,m,Tanger,Bronze,referral,2020-01-01,9999-12-31,True
+663,C0342,Meryem Filali,55-64,f,Non renseignée,Bronze,social_media,2020-01-01,9999-12-31,True
+664,C0301,Sara Alami,25-34,f,Agadir,Bronze,social_media,2020-01-01,9999-12-31,True
+665,C0426,Sara Filali,45-54,f,Tanger,Bronze,referral,2020-01-01,9999-12-31,True
+666,C0768,Meryem Alami,25-34,f,Fès,Bronze,social_media,2020-01-01,9999-12-31,True
+667,C0926,Rachid Tazi,18-24,m,Casablanca,Bronze,social_media,2020-01-01,9999-12-31,True
+668,C0069,Amine Lahlou,45-54,m,Non renseignée,Bronze,organic,2020-01-01,9999-12-31,True
+669,C0756,Meryem Filali,35-44,f,Non renseignée,Bronze,referral,2020-01-01,9999-12-31,True
+670,C0010,Khadija Guerraoui,45-54,f,Non renseignée,Bronze,organic,2020-01-01,9999-12-31,True
+671,C0506,Laila Cherkaoui,25-34,f,Non renseignée,Bronze,paid_search,2020-01-01,9999-12-31,True
+672,C0247,Ahmed Berrada,35-44,m,Casablanca,Bronze,social_media,2020-01-01,9999-12-31,True
+673,C0080,Rachid Idrissi,25-34,m,Rabat,Bronze,referral,2020-01-01,9999-12-31,True
+674,C0856,Houda Benomar,35-44,f,Casablanca,Bronze,paid_search,2020-01-01,9999-12-31,True
+675,C0185,Imane Cherkaoui,45-54,f,Agadir,Bronze,paid_search,2020-01-01,9999-12-31,True
+676,C0283,Sanaa Benali,45-54,f,Oujda,Bronze,paid_search,2020-01-01,9999-12-31,True
+677,C0079,Meryem Benomar,35-44,f,Tanger,Bronze,organic,2020-01-01,9999-12-31,True
+678,C0355,Rachid Filali,35-44,m,Tanger,Bronze,social_media,2020-01-01,9999-12-31,True
+679,C0205,Mohamed Benomar,35-44,m,Fès,Bronze,social_media,2020-01-01,9999-12-31,True
+680,C0755,Ahmed Cherkaoui,45-54,m,Non renseignée,Bronze,email,2020-01-01,9999-12-31,True
+681,C0163,Sanaa Idrissi,55-64,f,Rabat,Bronze,social_media,2020-01-01,9999-12-31,True
+682,C0808,Ahmed Lahlou,45-54,m,Marrakech,Bronze,paid_search,2020-01-01,9999-12-31,True
+683,C0398,Khalid Filali,45-54,m,Marrakech,Bronze,email,2020-01-01,9999-12-31,True
+684,C0613,Omar Benomar,25-34,m,Rabat,Bronze,social_media,2020-01-01,9999-12-31,True
+685,C0213,Tariq Berrada,35-44,m,Non renseignée,Bronze,email,2020-01-01,9999-12-31,True
+686,C0514,Amine Idrissi,45-54,m,Rabat,Bronze,email,2020-01-01,9999-12-31,True
+687,C0918,Mohamed Tazi,25-34,m,Agadir,Bronze,email,2020-01-01,9999-12-31,True
+688,C0609,Khalid Cherkaoui,45-54,m,Casablanca,Bronze,email,2020-01-01,9999-12-31,True
+689,C0874,Imane Guerraoui,25-34,f,Tanger,Bronze,social_media,2020-01-01,9999-12-31,True
+690,C0852,Karim Cherkaoui,35-44,m,Marrakech,Bronze,organic,2020-01-01,9999-12-31,True
+691,C0272,Houda Berrada,,f,Rabat,Bronze,organic,2020-01-01,9999-12-31,True
+692,C0829,Hassan Benomar,45-54,m,Non renseignée,Bronze,social_media,2020-01-01,9999-12-31,True
+693,C0363,Sanaa Alami,25-34,f,Agadir,Bronze,paid_search,2020-01-01,9999-12-31,True
+694,C0312,Tariq Cherkaoui,45-54,m,Casablanca,Bronze,organic,2020-01-01,9999-12-31,True
+695,C0891,Houda Tazi,45-54,f,Tanger,Bronze,referral,2020-01-01,9999-12-31,True
+696,C0983,Youssef Berrada,35-44,m,Agadir,Bronze,paid_search,2020-01-01,9999-12-31,True
+697,C0835,Sanaa Filali,18-24,f,Oujda,Bronze,social_media,2020-01-01,9999-12-31,True
+698,C0138,Imane Filali,25-34,f,Agadir,Bronze,email,2020-01-01,9999-12-31,True
+699,C0595,Hassan Berrada,55-64,m,Fès,Bronze,social_media,2020-01-01,9999-12-31,True
+700,C0826,Nadia Filali,35-44,f,Casablanca,Bronze,email,2020-01-01,9999-12-31,True
+701,C0913,Tariq Benali,55-64,m,Tanger,Bronze,referral,2020-01-01,9999-12-31,True
+702,C0937,Mohamed Alami,25-34,m,Tanger,Bronze,organic,2020-01-01,9999-12-31,True
+703,C1229,Sara Alami,45-54,f,Rabat,Bronze,social_media,2020-01-01,9999-12-31,True
+704,C0699,Youssef Benali,55-64,m,Non renseignée,Bronze,paid_search,2020-01-01,9999-12-31,True
+705,C0317,Nadia Idrissi,35-44,f,Marrakech,Bronze,social_media,2020-01-01,9999-12-31,True
+706,C0805,Amine Idrissi,55-64,m,Casablanca,Bronze,email,2020-01-01,9999-12-31,True
+707,C0371,Rachid Tazi,25-34,m,Tanger,Bronze,social_media,2020-01-01,9999-12-31,True
+708,C0470,Omar Cherkaoui,55-64,m,Rabat,Bronze,organic,2020-01-01,9999-12-31,True
+709,C0316,Karim Tazi,25-34,m,Agadir,Bronze,social_media,2020-01-01,9999-12-31,True
+710,C0682,Sanaa Berrada,25-34,f,Oujda,Bronze,paid_search,2020-01-01,9999-12-31,True
+711,C0950,Mohamed Benali,55-64,m,Tanger,Bronze,paid_search,2020-01-01,9999-12-31,True
+712,C0524,Tariq Lahlou,55-64,m,Casablanca,Bronze,referral,2020-01-01,9999-12-31,True
+713,C0403,Tariq Alami,18-24,m,Non renseignée,Bronze,email,2020-01-01,9999-12-31,True
+714,C0477,Khadija Benali,45-54,f,Tanger,Bronze,social_media,2020-01-01,9999-12-31,True
+715,C0676,Karim Alami,45-54,m,Non renseignée,Bronze,email,2020-01-01,9999-12-31,True
+716,C0384,Tariq Alami,25-34,m,Tanger,Bronze,social_media,2020-01-01,9999-12-31,True
+717,C0508,Tariq Berrada,45-54,m,Non renseignée,Bronze,referral,2020-01-01,9999-12-31,True
+718,C0677,Sanaa Lahlou,55-64,f,Agadir,Bronze,email,2020-01-01,9999-12-31,True
+719,C0172,Fatima Guerraoui,55-64,f,Oujda,Bronze,referral,2020-01-01,9999-12-31,True
+720,C0011,Nadia Benali,18-24,f,Oujda,Bronze,paid_search,2020-01-01,9999-12-31,True
+721,C0143,Fatima Guerraoui,35-44,f,Non renseignée,Bronze,email,2020-01-01,9999-12-31,True
+722,C1336,Meryem Cherkaoui,18-24,f,Rabat,Bronze,organic,2020-01-01,9999-12-31,True
+723,C0350,Houda Guerraoui,25-34,f,Non renseignée,Bronze,social_media,2020-01-01,9999-12-31,True
+724,C0052,Tariq Lahlou,45-54,m,Agadir,Bronze,social_media,2020-01-01,9999-12-31,True
+725,C0253,Laila Idrissi,18-24,f,Non renseignée,Bronze,referral,2020-01-01,9999-12-31,True
+726,C0326,Khadija Idrissi,35-44,f,Non renseignée,Bronze,email,2020-01-01,9999-12-31,True
+727,C0227,Karim Berrada,18-24,m,Oujda,Bronze,paid_search,2020-01-01,9999-12-31,True
+728,C0155,Khadija Guerraoui,55-64,f,Non renseignée,Bronze,paid_search,2020-01-01,9999-12-31,True
+729,C0904,Hassan Idrissi,55-64,m,Oujda,Bronze,referral,2020-01-01,9999-12-31,True
+730,C0579,Omar Alami,25-34,m,Non renseignée,Bronze,email,2020-01-01,9999-12-31,True
+731,C0667,Khadija Idrissi,25-34,f,Agadir,Bronze,referral,2020-01-01,9999-12-31,True
+732,C0683,Youssef Tazi,25-34,m,Casablanca,Bronze,social_media,2020-01-01,9999-12-31,True
+733,C0804,Omar Lahlou,25-34,m,Fès,Bronze,organic,2020-01-01,9999-12-31,True
+734,C0157,Nadia Idrissi,55-64,f,Tanger,Bronze,organic,2020-01-01,9999-12-31,True
+735,C0337,Karim Tazi,45-54,m,Oujda,Bronze,referral,2020-01-01,9999-12-31,True
+736,C0957,Houda Alami,35-44,f,Agadir,Bronze,organic,2020-01-01,9999-12-31,True
+737,C0709,Sara Berrada,18-24,f,Agadir,Bronze,email,2020-01-01,9999-12-31,True
+738,C0233,Rachid Benali,35-44,m,Non renseignée,Bronze,referral,2020-01-01,9999-12-31,True
+739,C0749,Zineb Berrada,55-64,f,Non renseignée,Bronze,email,2020-01-01,9999-12-31,True
+740,C0399,Imane Berrada,25-34,f,Non renseignée,Bronze,email,2020-01-01,9999-12-31,True
+741,C0972,Karim Benomar,35-44,m,Rabat,Bronze,social_media,2020-01-01,9999-12-31,True
+742,C0381,Khadija Benomar,35-44,f,Fès,Bronze,email,2020-01-01,9999-12-31,True
+743,C0623,Omar Idrissi,35-44,m,Oujda,Bronze,paid_search,2020-01-01,9999-12-31,True
+744,C0771,Ahmed Berrada,25-34,m,Non renseignée,Bronze,social_media,2020-01-01,9999-12-31,True
+745,C0147,Rachid Berrada,25-34,m,Rabat,Bronze,referral,2020-01-01,9999-12-31,True
+746,C0724,Hassan Berrada,25-34,m,Tanger,Bronze,organic,2020-01-01,9999-12-31,True
+747,C0128,Omar Alami,35-44,m,Non renseignée,Bronze,email,2020-01-01,9999-12-31,True
+748,C0364,Imane Lahlou,55-64,f,Non renseignée,Bronze,email,2020-01-01,9999-12-31,True
+749,C0909,Karim Lahlou,55-64,m,Non renseignée,Bronze,paid_search,2020-01-01,9999-12-31,True
+750,C0838,Youssef Cherkaoui,45-54,m,Rabat,Bronze,paid_search,2020-01-01,9999-12-31,True
+751,C0742,Houda Idrissi,25-34,f,Rabat,Bronze,paid_search,2020-01-01,9999-12-31,True
+752,C0621,Mohamed Filali,18-24,m,Fès,Bronze,social_media,2020-01-01,9999-12-31,True
+753,C0049,Amine Cherkaoui,35-44,m,Casablanca,Bronze,referral,2020-01-01,9999-12-31,True
+754,C0581,Sanaa Benali,25-34,f,Non renseignée,Bronze,referral,2020-01-01,9999-12-31,True
+755,C0901,Hassan Alami,18-24,m,Non renseignée,Bronze,social_media,2020-01-01,9999-12-31,True
+756,C0368,Sanaa Alami,25-34,f,Fès,Bronze,referral,2020-01-01,9999-12-31,True
+757,C0463,Sanaa Idrissi,25-34,f,Casablanca,Bronze,referral,2020-01-01,9999-12-31,True
+758,C0036,Meryem Guerraoui,25-34,f,Rabat,Bronze,social_media,2020-01-01,9999-12-31,True
+759,C0265,Sara Filali,25-34,f,Rabat,Bronze,social_media,2020-01-01,9999-12-31,True
+760,C0722,Nadia Guerraoui,45-54,f,Tanger,Bronze,organic,2020-01-01,9999-12-31,True
+761,C0026,Youssef Cherkaoui,55-64,m,Fès,Bronze,email,2020-01-01,9999-12-31,True
+762,C0868,Sara Guerraoui,55-64,f,Marrakech,Bronze,referral,2020-01-01,9999-12-31,True
+763,C0352,Mohamed Benomar,25-34,m,Tanger,Bronze,referral,2020-01-01,9999-12-31,True
+764,C0864,Sara Berrada,25-34,f,Non renseignée,Bronze,paid_search,2020-01-01,9999-12-31,True
+765,C0239,Laila Tazi,45-54,f,Oujda,Bronze,social_media,2020-01-01,9999-12-31,True
+766,C0638,Ahmed Lahlou,18-24,m,Oujda,Bronze,referral,2020-01-01,9999-12-31,True
+767,C0959,Rachid Filali,45-54,m,Agadir,Bronze,email,2020-01-01,9999-12-31,True
+768,C0807,Mohamed Berrada,35-44,m,Fès,Bronze,organic,2020-01-01,9999-12-31,True
+769,C0082,Ahmed Alami,18-24,m,Agadir,Bronze,organic,2020-01-01,9999-12-31,True
+770,C0375,Ahmed Lahlou,18-24,m,Marrakech,Bronze,social_media,2020-01-01,9999-12-31,True
+771,C0827,Meryem Lahlou,45-54,f,Casablanca,Bronze,email,2020-01-01,9999-12-31,True
+772,C0790,Rachid Benali,35-44,m,Agadir,Bronze,social_media,2020-01-01,9999-12-31,True
+773,C0510,Sanaa Lahlou,25-34,f,Non renseignée,Bronze,organic,2020-01-01,9999-12-31,True
+774,C0219,Omar Guerraoui,18-24,m,Non renseignée,Bronze,social_media,2020-01-01,9999-12-31,True
+775,C0921,Ahmed Guerraoui,18-24,m,Casablanca,Bronze,paid_search,2020-01-01,9999-12-31,True
+776,C0006,Rachid Tazi,55-64,m,Agadir,Bronze,paid_search,2020-01-01,9999-12-31,True
+777,C0678,Laila Lahlou,55-64,f,Rabat,Bronze,organic,2020-01-01,9999-12-31,True
+778,C0240,Tariq Idrissi,35-44,m,Non renseignée,Bronze,paid_search,2020-01-01,9999-12-31,True
+779,C0093,Fatima Guerraoui,25-34,f,Marrakech,Bronze,organic,2020-01-01,9999-12-31,True
+780,C0988,Hassan Filali,,m,Marrakech,Bronze,social_media,2020-01-01,9999-12-31,True
+781,C0280,Zineb Filali,55-64,f,Non renseignée,Bronze,paid_search,2020-01-01,9999-12-31,True
+782,C0615,Imane Idrissi,25-34,f,Oujda,Bronze,social_media,2020-01-01,9999-12-31,True
+783,C0587,Rachid Lahlou,18-24,m,Rabat,Bronze,email,2020-01-01,9999-12-31,True
+784,C0908,Laila Idrissi,55-64,f,Non renseignée,Bronze,organic,2020-01-01,9999-12-31,True
+785,C0997,Fatima Alami,45-54,f,Casablanca,Bronze,email,2020-01-01,9999-12-31,True
+786,C0952,Khalid Filali,25-34,m,Casablanca,Bronze,paid_search,2020-01-01,9999-12-31,True
+787,C0902,Hassan Filali,25-34,m,Non renseignée,Bronze,referral,2020-01-01,9999-12-31,True
+788,C0607,Imane Berrada,45-54,f,Fès,Bronze,social_media,2020-01-01,9999-12-31,True
+789,C0250,Houda Benomar,25-34,f,Non renseignée,Bronze,paid_search,2020-01-01,9999-12-31,True
+790,C0502,Zineb Idrissi,35-44,f,Oujda,Bronze,referral,2020-01-01,9999-12-31,True
+791,C0182,Tariq Idrissi,25-34,m,Non renseignée,Bronze,paid_search,2020-01-01,9999-12-31,True
+792,C0871,Nadia Lahlou,35-44,f,Marrakech,Bronze,referral,2020-01-01,9999-12-31,True
+793,C0848,Laila Cherkaoui,35-44,f,Tanger,Bronze,email,2020-01-01,9999-12-31,True
+794,C0666,Houda Benali,45-54,f,Non renseignée,Bronze,social_media,2020-01-01,9999-12-31,True
+795,C0202,Karim Benali,25-34,m,Agadir,Bronze,email,2020-01-01,9999-12-31,True
+796,C0570,Nadia Berrada,,f,Casablanca,Bronze,email,2020-01-01,9999-12-31,True
+797,C0414,Tariq Guerraoui,25-34,m,Rabat,Bronze,paid_search,2020-01-01,9999-12-31,True
+798,C0941,Omar Cherkaoui,18-24,m,Oujda,Bronze,email,2020-01-01,9999-12-31,True
+799,C0418,Sara Benomar,25-34,f,Rabat,Bronze,email,2020-01-01,9999-12-31,True
+800,C0196,Youssef Alami,45-54,m,Non renseignée,Bronze,referral,2020-01-01,9999-12-31,True
+801,C0333,Youssef Guerraoui,55-64,m,Non renseignée,Bronze,referral,2020-01-01,9999-12-31,True
+802,C0828,Laila Guerraoui,18-24,f,Oujda,Bronze,paid_search,2020-01-01,9999-12-31,True
+803,C0619,Youssef Alami,18-24,m,Non renseignée,Bronze,organic,2020-01-01,9999-12-31,True
+804,C0428,Karim Idrissi,18-24,m,Non renseignée,Bronze,organic,2020-01-01,9999-12-31,True
+805,C0014,Mohamed Alami,35-44,m,Rabat,Bronze,paid_search,2020-01-01,9999-12-31,True
+806,C0030,Nadia Alami,35-44,f,Non renseignée,Bronze,social_media,2020-01-01,9999-12-31,True
+807,C0770,Khalid Guerraoui,25-34,m,Rabat,Bronze,organic,2020-01-01,9999-12-31,True
+808,C0090,Ahmed Tazi,25-34,m,Marrakech,Bronze,paid_search,2020-01-01,9999-12-31,True
+809,C0855,Sanaa Idrissi,25-34,f,Non renseignée,Bronze,referral,2020-01-01,9999-12-31,True
+810,C0327,Amine Berrada,18-24,m,Non renseignée,Bronze,referral,2020-01-01,9999-12-31,True
+811,C0018,Nadia Cherkaoui,18-24,f,Fès,Bronze,organic,2020-01-01,9999-12-31,True
+812,C0075,Meryem Lahlou,45-54,f,Tanger,Bronze,paid_search,2020-01-01,9999-12-31,True
+813,C0448,Hassan Idrissi,25-34,m,Non renseignée,Bronze,organic,2020-01-01,9999-12-31,True
+814,C0486,Sanaa Tazi,35-44,f,Agadir,Bronze,paid_search,2020-01-01,9999-12-31,True
+815,C0225,Zineb Alami,45-54,f,Agadir,Bronze,email,2020-01-01,9999-12-31,True
+816,C0526,Nadia Idrissi,,f,Non renseignée,Bronze,referral,2020-01-01,9999-12-31,True
+817,C0464,Zineb Cherkaoui,,f,Rabat,Bronze,referral,2020-01-01,9999-12-31,True
+818,C0297,Youssef Filali,25-34,m,Marrakech,Bronze,organic,2020-01-01,9999-12-31,True
+819,C0830,Imane Benomar,45-54,f,Fès,Bronze,paid_search,2020-01-01,9999-12-31,True
+820,C0331,Imane Benali,55-64,f,Non renseignée,Bronze,email,2020-01-01,9999-12-31,True
+821,C0089,Youssef Alami,55-64,m,Agadir,Bronze,email,2020-01-01,9999-12-31,True
+822,C0631,Hassan Alami,18-24,m,Non renseignée,Bronze,paid_search,2020-01-01,9999-12-31,True
+823,C0695,Amine Alami,25-34,m,Agadir,Bronze,email,2020-01-01,9999-12-31,True
+824,C0569,Youssef Tazi,35-44,m,Rabat,Bronze,organic,2020-01-01,9999-12-31,True
+825,C0893,Khadija Idrissi,35-44,f,Tanger,Bronze,paid_search,2020-01-01,9999-12-31,True
+826,C0319,Hassan Alami,25-34,m,Oujda,Bronze,referral,2020-01-01,9999-12-31,True
+827,C0047,Hassan Filali,25-34,m,Non renseignée,Bronze,social_media,2020-01-01,9999-12-31,True
+828,C0635,Khadija Alami,55-64,f,Rabat,Bronze,paid_search,2020-01-01,9999-12-31,True
+829,C0882,Hassan Filali,35-44,m,Tanger,Bronze,referral,2020-01-01,9999-12-31,True
+830,C0178,Youssef Guerraoui,35-44,m,Casablanca,Bronze,social_media,2020-01-01,9999-12-31,True
+831,C0421,Tariq Tazi,25-34,m,Non renseignée,Bronze,social_media,2020-01-01,9999-12-31,True
+832,C0234,Sara Guerraoui,35-44,f,Non renseignée,Bronze,organic,2020-01-01,9999-12-31,True
+833,C1786,Houda Guerraoui,45-54,f,Non renseignée,Bronze,organic,2020-01-01,9999-12-31,True
+834,C0431,Rachid Lahlou,25-34,m,Rabat,Bronze,email,2020-01-01,9999-12-31,True
+835,C0187,Khadija Benomar,35-44,f,Non renseignée,Bronze,email,2020-01-01,9999-12-31,True
+836,C0975,Rachid Cherkaoui,25-34,m,Casablanca,Bronze,referral,2020-01-01,9999-12-31,True
+837,C0894,Imane Idrissi,35-44,f,Agadir,Bronze,social_media,2020-01-01,9999-12-31,True
+838,C0330,Nadia Filali,,f,Non renseignée,Bronze,email,2020-01-01,9999-12-31,True
+839,C0439,Sara Cherkaoui,,f,Non renseignée,Bronze,organic,2020-01-01,9999-12-31,True
+840,C0321,Imane Cherkaoui,45-54,f,Oujda,Bronze,email,2020-01-01,9999-12-31,True
+841,C0735,Khalid Cherkaoui,25-34,m,Fès,Bronze,organic,2020-01-01,9999-12-31,True
+842,C0544,Mohamed Idrissi,45-54,m,Non renseignée,Bronze,social_media,2020-01-01,9999-12-31,True
+843,C0120,Laila Filali,25-34,f,Casablanca,Bronze,email,2020-01-01,9999-12-31,True
+844,C0296,Amine Lahlou,25-34,m,Agadir,Bronze,paid_search,2020-01-01,9999-12-31,True
+845,C0966,Khalid Lahlou,25-34,m,Casablanca,Bronze,social_media,2020-01-01,9999-12-31,True
+846,C0543,Houda Lahlou,35-44,f,Rabat,Bronze,organic,2020-01-01,9999-12-31,True
+847,C0899,Meryem Tazi,45-54,f,Rabat,Bronze,paid_search,2020-01-01,9999-12-31,True
+848,C0390,Imane Lahlou,55-64,f,Oujda,Bronze,social_media,2020-01-01,9999-12-31,True
+849,C1712,Omar Berrada,18-24,m,Casablanca,Bronze,email,2020-01-01,9999-12-31,True
+850,C0122,Nadia Alami,25-34,f,Rabat,Bronze,organic,2020-01-01,9999-12-31,True
+851,C0820,Nadia Lahlou,18-24,f,Marrakech,Bronze,organic,2020-01-01,9999-12-31,True
+852,C0817,Karim Filali,25-34,m,Non renseignée,Bronze,social_media,2020-01-01,9999-12-31,True
+853,C0548,Laila Benomar,18-24,f,Oujda,Bronze,paid_search,2020-01-01,9999-12-31,True
+854,C0793,Houda Benali,35-44,f,Fès,Bronze,email,2020-01-01,9999-12-31,True
+855,C0314,Nadia Benomar,45-54,f,Fès,Bronze,email,2020-01-01,9999-12-31,True
+856,C0753,Zineb Benali,18-24,f,Agadir,Bronze,email,2020-01-01,9999-12-31,True
+857,C0861,Amine Guerraoui,35-44,m,Marrakech,Bronze,email,2020-01-01,9999-12-31,True
+858,C0146,Khadija Benomar,25-34,f,Non renseignée,Bronze,paid_search,2020-01-01,9999-12-31,True
+859,C0898,Mohamed Cherkaoui,45-54,m,Fès,Bronze,email,2020-01-01,9999-12-31,True
+860,C0681,Houda Idrissi,45-54,f,Non renseignée,Bronze,organic,2020-01-01,9999-12-31,True
+861,C0348,Ahmed Benomar,55-64,m,Casablanca,Bronze,organic,2020-01-01,9999-12-31,True
+862,C0179,Amine Benomar,18-24,m,Non renseignée,Bronze,paid_search,2020-01-01,9999-12-31,True
+863,C0078,Rachid Benomar,35-44,m,Casablanca,Bronze,social_media,2020-01-01,9999-12-31,True
+864,C0141,Fatima Cherkaoui,18-24,f,Non renseignée,Bronze,paid_search,2020-01-01,9999-12-31,True
+865,C0300,Tariq Benomar,55-64,m,Fès,Bronze,organic,2020-01-01,9999-12-31,True
+866,C0091,Khalid Alami,18-24,m,Fès,Bronze,email,2020-01-01,9999-12-31,True
+867,C0672,Karim Cherkaoui,45-54,m,Fès,Bronze,organic,2020-01-01,9999-12-31,True
+868,C0549,Sanaa Idrissi,18-24,f,Oujda,Bronze,social_media,2020-01-01,9999-12-31,True
+869,C0261,Tariq Cherkaoui,35-44,m,Fès,Bronze,email,2020-01-01,9999-12-31,True
+870,C0108,Sanaa Tazi,18-24,f,Rabat,Bronze,referral,2020-01-01,9999-12-31,True
+871,C0585,Karim Benali,55-64,m,Agadir,Bronze,paid_search,2020-01-01,9999-12-31,True
+872,C0062,Omar Benali,25-34,m,Non renseignée,Bronze,organic,2020-01-01,9999-12-31,True
+873,C0455,Mohamed Berrada,25-34,m,Non renseignée,Bronze,paid_search,2020-01-01,9999-12-31,True
+874,C0704,Nadia Cherkaoui,25-34,f,Non renseignée,Bronze,email,2020-01-01,9999-12-31,True
+875,C0964,Zineb Benomar,35-44,f,Casablanca,Bronze,referral,2020-01-01,9999-12-31,True
+876,C0302,Meryem Guerraoui,45-54,f,Tanger,Bronze,referral,2020-01-01,9999-12-31,True
+877,C0171,Houda Guerraoui,55-64,f,Tanger,Bronze,organic,2020-01-01,9999-12-31,True
+878,C0880,Rachid Cherkaoui,45-54,m,Tanger,Bronze,referral,2020-01-01,9999-12-31,True
+879,C0800,Zineb Idrissi,55-64,f,Casablanca,Bronze,paid_search,2020-01-01,9999-12-31,True
+880,C0104,Imane Tazi,35-44,f,Non renseignée,Bronze,social_media,2020-01-01,9999-12-31,True
+881,C0559,Youssef Benali,55-64,m,Non renseignée,Bronze,email,2020-01-01,9999-12-31,True
+882,C0452,Omar Tazi,25-34,m,Rabat,Bronze,referral,2020-01-01,9999-12-31,True
+883,C0954,Houda Filali,35-44,f,Tanger,Bronze,paid_search,2020-01-01,9999-12-31,True
+884,C0449,Youssef Benali,18-24,m,Rabat,Bronze,social_media,2020-01-01,9999-12-31,True
+885,C0625,Fatima Filali,45-54,f,Non renseignée,Bronze,organic,2020-01-01,9999-12-31,True
+886,C0636,Ahmed Benomar,45-54,m,Fès,Bronze,social_media,2020-01-01,9999-12-31,True
+887,C0116,Ahmed Tazi,25-34,m,Tanger,Bronze,social_media,2020-01-01,9999-12-31,True
+888,C0241,Imane Lahlou,25-34,f,Fès,Bronze,social_media,2020-01-01,9999-12-31,True
+889,C0646,Zineb Benali,45-54,f,Non renseignée,Bronze,organic,2020-01-01,9999-12-31,True
+890,C0285,Khalid Alami,55-64,m,Casablanca,Bronze,email,2020-01-01,9999-12-31,True
+891,C0927,Sanaa Benomar,55-64,f,Casablanca,Bronze,paid_search,2020-01-01,9999-12-31,True
+892,C0622,Ahmed Tazi,45-54,m,Oujda,Bronze,referral,2020-01-01,9999-12-31,True
+893,C0599,Imane Lahlou,35-44,f,Tanger,Bronze,paid_search,2020-01-01,9999-12-31,True
+894,C0482,Fatima Lahlou,25-34,f,Tanger,Bronze,referral,2020-01-01,9999-12-31,True
+895,C0130,Sanaa Alami,18-24,f,Marrakech,Bronze,email,2020-01-01,9999-12-31,True
+896,C0282,Sanaa Tazi,18-24,f,Fès,Bronze,paid_search,2020-01-01,9999-12-31,True
+897,C0131,Zineb Lahlou,18-24,f,Tanger,Bronze,social_media,2020-01-01,9999-12-31,True
+898,C0720,Youssef Cherkaoui,35-44,m,Tanger,Bronze,email,2020-01-01,9999-12-31,True
+899,C0360,Zineb Alami,25-34,f,Tanger,Bronze,email,2020-01-01,9999-12-31,True
+900,C0879,Sara Filali,18-24,f,Fès,Bronze,paid_search,2020-01-01,9999-12-31,True
+901,C0232,Omar Tazi,45-54,m,Tanger,Bronze,referral,2020-01-01,9999-12-31,True
+902,C0539,Omar Lahlou,18-24,m,Agadir,Bronze,referral,2020-01-01,9999-12-31,True
+903,C0306,Fatima Filali,45-54,f,Rabat,Bronze,organic,2020-01-01,9999-12-31,True
+904,C0583,Fatima Benali,45-54,f,Oujda,Bronze,organic,2020-01-01,9999-12-31,True
+905,C0216,Zineb Alami,25-34,f,Agadir,Bronze,organic,2020-01-01,9999-12-31,True
+906,C0665,Amine Filali,35-44,m,Casablanca,Bronze,social_media,2020-01-01,9999-12-31,True
+907,C0210,Amine Idrissi,45-54,m,Casablanca,Bronze,referral,2020-01-01,9999-12-31,True
+908,C0668,Fatima Guerraoui,25-34,f,Non renseignée,Bronze,paid_search,2020-01-01,9999-12-31,True
+909,C0858,Tariq Idrissi,35-44,m,Oujda,Bronze,social_media,2020-01-01,9999-12-31,True
+910,C0825,Laila Idrissi,,f,Agadir,Bronze,referral,2020-01-01,9999-12-31,True
+911,C0022,Hassan Berrada,45-54,m,Marrakech,Bronze,organic,2020-01-01,9999-12-31,True
+912,C0611,Zineb Benali,35-44,f,Non renseignée,Bronze,paid_search,2020-01-01,9999-12-31,True
+913,C0727,Mohamed Filali,25-34,m,Fès,Bronze,paid_search,2020-01-01,9999-12-31,True
+914,C0537,Omar Filali,35-44,m,Non renseignée,Bronze,organic,2020-01-01,9999-12-31,True
+915,C0696,Amine Lahlou,45-54,m,Casablanca,Bronze,paid_search,2020-01-01,9999-12-31,True
+916,C1188,Sara Filali,25-34,f,Tanger,Bronze,organic,2020-01-01,9999-12-31,True
+917,C0309,Khadija Alami,45-54,f,Agadir,Bronze,organic,2020-01-01,9999-12-31,True
+918,C0263,Nadia Berrada,35-44,f,Agadir,Bronze,social_media,2020-01-01,9999-12-31,True
+919,C0035,Khalid Alami,18-24,m,Non renseignée,Bronze,organic,2020-01-01,9999-12-31,True
+920,C0369,Imane Benomar,25-34,f,Rabat,Bronze,email,2020-01-01,9999-12-31,True
+921,C0535,Ahmed Filali,25-34,m,Oujda,Bronze,social_media,2020-01-01,9999-12-31,True
+922,C0085,Sanaa Alami,35-44,f,Non renseignée,Bronze,social_media,2020-01-01,9999-12-31,True
+923,C0953,Youssef Berrada,45-54,m,Casablanca,Bronze,social_media,2020-01-01,9999-12-31,True
+924,C0160,Omar Berrada,45-54,m,Casablanca,Bronze,email,2020-01-01,9999-12-31,True
+925,C0541,Tariq Guerraoui,55-64,m,Non renseignée,Bronze,social_media,2020-01-01,9999-12-31,True
+926,C0246,Ahmed Idrissi,25-34,m,Non renseignée,Bronze,email,2020-01-01,9999-12-31,True
+927,C0517,Karim Filali,35-44,m,Non renseignée,Bronze,paid_search,2020-01-01,9999-12-31,True
+928,C0274,Ahmed Cherkaoui,45-54,m,Tanger,Bronze,social_media,2020-01-01,9999-12-31,True
+929,C0349,Laila Berrada,35-44,f,Non renseignée,Bronze,social_media,2020-01-01,9999-12-31,True
+930,C0533,Youssef Tazi,35-44,m,Non renseignée,Bronze,paid_search,2020-01-01,9999-12-31,True
+931,C0031,Omar Guerraoui,25-34,m,Fès,Bronze,email,2020-01-01,9999-12-31,True
+932,C0654,Mohamed Tazi,35-44,m,Oujda,Bronze,email,2020-01-01,9999-12-31,True
+933,C0551,Amine Idrissi,35-44,m,Fès,Bronze,paid_search,2020-01-01,9999-12-31,True
+934,C0151,Imane Filali,18-24,f,Agadir,Bronze,paid_search,2020-01-01,9999-12-31,True
+935,C0194,Ahmed Alami,25-34,m,Oujda,Bronze,email,2020-01-01,9999-12-31,True
+936,C0106,Ahmed Guerraoui,35-44,m,Non renseignée,Bronze,email,2020-01-01,9999-12-31,True
+937,C0012,Sanaa Cherkaoui,18-24,f,Fès,Bronze,social_media,2020-01-01,9999-12-31,True
+938,C0221,Laila Tazi,35-44,f,Agadir,Bronze,paid_search,2020-01-01,9999-12-31,True
+939,C0140,Nadia Guerraoui,25-34,f,Oujda,Bronze,referral,2020-01-01,9999-12-31,True
+940,C0335,Meryem Idrissi,25-34,f,Marrakech,Bronze,organic,2020-01-01,9999-12-31,True
+941,C0059,Sanaa Benomar,55-64,f,Non renseignée,Bronze,email,2020-01-01,9999-12-31,True
+942,C0739,Imane Tazi,,f,Oujda,Bronze,social_media,2020-01-01,9999-12-31,True
+943,C0466,Omar Lahlou,45-54,m,Agadir,Bronze,organic,2020-01-01,9999-12-31,True
+944,C0818,Imane Benali,18-24,f,Tanger,Bronze,email,2020-01-01,9999-12-31,True
+945,C0630,Houda Guerraoui,18-24,f,Agadir,Bronze,social_media,2020-01-01,9999-12-31,True
+946,C0109,Hassan Benomar,25-34,m,Oujda,Bronze,referral,2020-01-01,9999-12-31,True
+947,C0499,Khalid Filali,55-64,m,Tanger,Bronze,paid_search,2020-01-01,9999-12-31,True
+948,C0663,Meryem Berrada,55-64,f,Rabat,Bronze,organic,2020-01-01,9999-12-31,True
+949,C0731,Nadia Filali,18-24,f,Marrakech,Bronze,referral,2020-01-01,9999-12-31,True
+950,C0534,Fatima Idrissi,35-44,f,Agadir,Bronze,referral,2020-01-01,9999-12-31,True
+951,C0809,Laila Cherkaoui,,f,Fès,Bronze,email,2020-01-01,9999-12-31,True
+952,C0760,Amine Berrada,45-54,m,Casablanca,Bronze,social_media,2020-01-01,9999-12-31,True
+953,C0990,Khalid Lahlou,25-34,m,Marrakech,Bronze,email,2020-01-01,9999-12-31,True
+954,C0610,Nadia Alami,35-44,f,Fès,Bronze,paid_search,2020-01-01,9999-12-31,True
+955,C0907,Nadia Filali,45-54,f,Agadir,Bronze,referral,2020-01-01,9999-12-31,True
+956,C0328,Khadija Benomar,45-54,f,Agadir,Bronze,paid_search,2020-01-01,9999-12-31,True
+957,C0132,Imane Lahlou,25-34,f,Marrakech,Bronze,social_media,2020-01-01,9999-12-31,True
+958,C0295,Sanaa Guerraoui,25-34,f,Tanger,Bronze,email,2020-01-01,9999-12-31,True
+959,C0782,Sara Idrissi,18-24,f,Casablanca,Bronze,referral,2020-01-01,9999-12-31,True
+960,C0264,Omar Idrissi,18-24,m,Fès,Bronze,referral,2020-01-01,9999-12-31,True
+961,C0271,Tariq Filali,55-64,m,Non renseignée,Bronze,social_media,2020-01-01,9999-12-31,True
+962,C0841,Khadija Alami,25-34,f,Non renseignée,Bronze,organic,2020-01-01,9999-12-31,True
+963,C0671,Sanaa Guerraoui,18-24,f,Agadir,Bronze,organic,2020-01-01,9999-12-31,True
+964,C0444,Imane Guerraoui,25-34,f,Casablanca,Bronze,organic,2020-01-01,9999-12-31,True
+965,C0273,Mohamed Cherkaoui,18-24,m,Casablanca,Bronze,referral,2020-01-01,9999-12-31,True
+966,C0935,Imane Guerraoui,35-44,f,Marrakech,Bronze,paid_search,2020-01-01,9999-12-31,True
+967,C0144,Amine Benomar,35-44,m,Marrakech,Bronze,social_media,2020-01-01,9999-12-31,True
+968,C0465,Youssef Filali,35-44,m,Tanger,Bronze,email,2020-01-01,9999-12-31,True
+969,C0774,Imane Berrada,45-54,f,Non renseignée,Bronze,referral,2020-01-01,9999-12-31,True
+970,C1000,Mohamed Idrissi,45-54,m,Non renseignée,Bronze,organic,2020-01-01,9999-12-31,True
+971,C0290,Zineb Filali,18-24,f,Non renseignée,Bronze,social_media,2020-01-01,9999-12-31,True
+972,C0979,Laila Tazi,35-44,f,Agadir,Bronze,social_media,2020-01-01,9999-12-31,True
+973,C0039,Khadija Idrissi,25-34,f,Non renseignée,Bronze,email,2020-01-01,9999-12-31,True
+974,C0191,Ahmed Filali,35-44,m,Oujda,Bronze,social_media,2020-01-01,9999-12-31,True
+975,C0740,Fatima Filali,18-24,f,Fès,Bronze,paid_search,2020-01-01,9999-12-31,True
+976,C0700,Rachid Guerraoui,35-44,m,Tanger,Bronze,email,2020-01-01,9999-12-31,True
+977,C1132,Sanaa Tazi,25-34,f,Casablanca,Bronze,email,2020-01-01,9999-12-31,True
+978,C0641,Sara Idrissi,45-54,f,Agadir,Bronze,paid_search,2020-01-01,9999-12-31,True
+979,C0649,Hassan Berrada,35-44,m,Agadir,Bronze,paid_search,2020-01-01,9999-12-31,True
+980,C0653,Houda Benomar,25-34,f,Fès,Bronze,organic,2020-01-01,9999-12-31,True
+981,C0252,Ahmed Idrissi,18-24,m,Oujda,Bronze,email,2020-01-01,9999-12-31,True
+982,C0236,Laila Filali,18-24,f,Agadir,Bronze,email,2020-01-01,9999-12-31,True
+983,C0567,Houda Idrissi,45-54,f,Oujda,Bronze,email,2020-01-01,9999-12-31,True
+984,C0849,Ahmed Lahlou,18-24,m,Non renseignée,Bronze,social_media,2020-01-01,9999-12-31,True
+985,C0877,Houda Berrada,45-54,f,Marrakech,Bronze,paid_search,2020-01-01,9999-12-31,True
+986,C0872,Houda Filali,25-34,f,Tanger,Bronze,paid_search,2020-01-01,9999-12-31,True
+987,C0013,Rachid Alami,55-64,m,Fès,Bronze,organic,2020-01-01,9999-12-31,True
+988,C0164,Laila Idrissi,35-44,f,Fès,Bronze,referral,2020-01-01,9999-12-31,True
+989,C0103,Youssef Benomar,35-44,m,Rabat,Bronze,referral,2020-01-01,9999-12-31,True
+990,C0968,Khadija Alami,25-34,f,Non renseignée,Bronze,email,2020-01-01,9999-12-31,True
+991,C0129,Youssef Guerraoui,55-64,m,Marrakech,Bronze,social_media,2020-01-01,9999-12-31,True
+992,C0721,Sanaa Benali,25-34,f,Marrakech,Bronze,referral,2020-01-01,9999-12-31,True
+993,C0687,Nadia Benomar,25-34,f,Non renseignée,Bronze,organic,2020-01-01,9999-12-31,True
+994,C0383,Fatima Idrissi,35-44,f,Non renseignée,Bronze,social_media,2020-01-01,9999-12-31,True
+995,C0292,Tariq Tazi,45-54,m,Non renseignée,Bronze,social_media,2020-01-01,9999-12-31,True
+996,C0529,Sanaa Lahlou,45-54,f,Rabat,Bronze,referral,2020-01-01,9999-12-31,True
+997,C0420,Karim Idrissi,25-34,m,Fès,Bronze,referral,2020-01-01,9999-12-31,True
+998,C0397,Sanaa Idrissi,55-64,f,Rabat,Bronze,referral,2020-01-01,9999-12-31,True
+999,C0892,Omar Benali,35-44,m,Oujda,Bronze,email,2020-01-01,9999-12-31,True
+1000,C0728,Sanaa Benomar,35-44,f,Non renseignée,Bronze,paid_search,2020-01-01,9999-12-31,True

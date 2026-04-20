@@ -1,0 +1,57 @@
+2026-04-20 13:47:01 | INFO     | ============================================================
+2026-04-20 13:47:01 | INFO     |   DÉMARRAGE PIPELINE ETL MEXORA ANALYTICS
+2026-04-20 13:47:01 | INFO     |   Mode : Démo CSV
+2026-04-20 13:47:01 | INFO     | ============================================================
+2026-04-20 13:47:01 | INFO     | --- PHASE EXTRACT ---
+2026-04-20 13:47:01 | INFO     | [EXTRACT] commandes : 515 lignes lues depuis commandes_mexora.csv
+2026-04-20 13:47:01 | INFO     | [EXTRACT] produits : 15 produits lus depuis produits_mexora.json
+2026-04-20 13:47:01 | INFO     | [EXTRACT] clients : 1,030 lignes lues depuis clients_mexora.csv
+2026-04-20 13:47:01 | INFO     | [EXTRACT] régions : 10 villes dans le référentiel
+2026-04-20 13:47:01 | INFO     | --- PHASE TRANSFORM ---
+2026-04-20 13:47:01 | INFO     | [TRANSFORM commandes] Début : 515 lignes
+2026-04-20 13:47:01 | INFO     | [R1] Doublons supprimés : 15 lignes
+2026-04-20 13:47:01 | INFO     | [R2] Dates invalides supprimées : 0
+2026-04-20 13:47:01 | INFO     | [R3] Villes non reconnues → 'Non renseignée' : 153
+2026-04-20 13:47:01 | WARNING  | [R4] Statuts non reconnus → 'inconnu' : 0
+2026-04-20 13:47:01 | INFO     | [R5] Quantités <= 0 supprimées : 12
+2026-04-20 13:47:01 | INFO     | [R6] Prix nuls (commandes test) supprimés : 22
+2026-04-20 13:47:01 | INFO     | [R7] Livreurs manquants remplacés par '-1' : 41
+2026-04-20 13:47:01 | INFO     | [TRANSFORM commandes] Fin : 515 → 466 lignes (supprimées : 49)
+2026-04-20 13:47:01 | INFO     | [TRANSFORM clients] Début : 1,030 lignes
+2026-04-20 13:47:01 | INFO     | [R1] Doublons email supprimés : 30
+2026-04-20 13:47:01 | INFO     | [R2] Sexe non reconnu → 'inconnu' : 0
+2026-04-20 13:47:01 | INFO     | [R3] Dates de naissance invalides (âge hors 16-100 ans) : 27
+2026-04-20 13:47:01 | INFO     | [R5] Emails invalides → None : 51
+2026-04-20 13:47:01 | INFO     | [TRANSFORM clients] Fin : 1,030 → 1,000 lignes (supprimées : 30)
+2026-04-20 13:47:01 | INFO     | [TRANSFORM produits] Début : 15 lignes
+2026-04-20 13:47:01 | INFO     | [R1] Catégories normalisées : 15
+2026-04-20 13:47:01 | INFO     | [R2] Prix manquants remplacés par médiane catégorie : 1
+2026-04-20 13:47:01 | INFO     | [R3] Produits inactifs conservés (SCD Type 2) : 1 (ils seront marqués est_actif=False dans dim_produit)
+2026-04-20 13:47:01 | INFO     | [TRANSFORM produits] Fin : 15 lignes
+2026-04-20 13:47:01 | WARNING  | [SEGMENT] Aucune commande récente → tous les clients classés Bronze
+2026-04-20 13:47:01 | INFO     |   Construction des dimensions...
+2026-04-20 13:47:01 | INFO     | [dim_temps] 2,557 jours générés (2020-01-01 → 2026-12-31)
+2026-04-20 13:47:01 | INFO     | [dim_produit] 15 produits dont 1 inactifs (SCD Type 2)
+2026-04-20 13:47:01 | INFO     | [dim_client] 1,000 clients construits
+2026-04-20 13:47:01 | INFO     | [dim_region] 10 régions construites
+2026-04-20 13:47:01 | INFO     | [dim_livreur] 21 livreurs construits
+2026-04-20 13:47:01 | INFO     |   Construction de la table de faits...
+2026-04-20 13:47:01 | INFO     | [fait_ventes] 457 lignes construites
+2026-04-20 13:47:01 | INFO     | --- PHASE LOAD ---
+2026-04-20 13:47:01 | INFO     | [LOAD-CSV] dim_temps → dim_temps.csv (2,557 lignes)
+2026-04-20 13:47:01 | INFO     | [LOAD-CSV] dim_produit → dim_produit.csv (15 lignes)
+2026-04-20 13:47:01 | INFO     | [LOAD-CSV] dim_client → dim_client.csv (1,000 lignes)
+2026-04-20 13:47:01 | INFO     | [LOAD-CSV] dim_region → dim_region.csv (10 lignes)
+2026-04-20 13:47:01 | INFO     | [LOAD-CSV] dim_livreur → dim_livreur.csv (21 lignes)
+2026-04-20 13:47:01 | INFO     | [LOAD-CSV] fait_ventes → fait_ventes.csv (457 lignes)
+2026-04-20 13:47:01 | INFO     | [LOAD-CSV] Toutes les tables sauvegardées dans : /home/claude/mexora_etl/output_dwh/
+2026-04-20 13:47:01 | INFO     | ============================================================
+2026-04-20 13:47:01 | INFO     |   PIPELINE TERMINÉ EN 0 seconde(s)
+2026-04-20 13:47:01 | INFO     |   Lignes dans chaque table :
+2026-04-20 13:47:01 | INFO     |     dim_temps            :    2,557 lignes
+2026-04-20 13:47:01 | INFO     |     dim_produit          :       15 lignes
+2026-04-20 13:47:01 | INFO     |     dim_client           :    1,000 lignes
+2026-04-20 13:47:01 | INFO     |     dim_region           :       10 lignes
+2026-04-20 13:47:01 | INFO     |     dim_livreur          :       21 lignes
+2026-04-20 13:47:01 | INFO     |     fait_ventes          :      457 lignes
+2026-04-20 13:47:01 | INFO     | ============================================================

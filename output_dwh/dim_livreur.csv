@@ -1,0 +1,22 @@
+id_livreur,id_livreur_nk,nom_livreur,type_transport,zone_couverture
+1,-1,Inconnu,Inconnu,N/A
+2,L001,Livreur L001,Camionnette,Tanger
+3,L002,Livreur L002,Vélo,Casablanca
+4,L003,Livreur L003,Moto,Rabat
+5,L004,Livreur L004,Camionnette,Fès
+6,L005,Livreur L005,Vélo,Marrakech
+7,L006,Livreur L006,Moto,Agadir
+8,L007,Livreur L007,Camionnette,Tétouan
+9,L008,Livreur L008,Vélo,Oujda
+10,L009,Livreur L009,Moto,Meknès
+11,L010,Livreur L010,Camionnette,Laâyoune
+12,L011,Livreur L011,Vélo,Tanger
+13,L012,Livreur L012,Moto,Casablanca
+14,L013,Livreur L013,Camionnette,Rabat
+15,L014,Livreur L014,Vélo,Fès
+16,L015,Livreur L015,Moto,Marrakech
+17,L016,Livreur L016,Camionnette,Agadir
+18,L017,Livreur L017,Vélo,Tétouan
+19,L018,Livreur L018,Moto,Oujda
+20,L019,Livreur L019,Camionnette,Meknès
+21,L020,Livreur L020,Vélo,Laâyoune
